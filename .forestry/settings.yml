@@ -7,14 +7,14 @@ sections:
 - type: heading
   label: Content
 - type: directory
-  path: Projects
-  label: Projects
-  create: documents
-  match: "**/*"
-- type: directory
   path: Pages
   label: Pages
   create: all
+  match: "**/*"
+- type: directory
+  path: Projects
+  label: Projects
+  create: documents
   match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
