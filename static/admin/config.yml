@@ -15,3 +15,12 @@ collections:
       - {label: "Image", name: "thumbnail", widget: "image"}
       - {label: "Link to URL", name: "url", widget: "string"}
       - {label: "Description", name: "description", widget: "text"}
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "About Page"
+        label: "about"
+        file: "content/about.yml"
+        fields: 
+          - {label: Title, name: title, widget: string}
+          - {label: Intro, nmae: intro, widget: markdown}
