@@ -4,8 +4,8 @@ backend:
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 collections:
-  - name: "projects"
-    label: "Projects"
+  - label: "Projects"
+    name: "projects"
     folder: "content/projects"
     create: true
     slug: "{{slug}}"
@@ -18,9 +18,25 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - name: "About Page"
-        label: "about"
+      - label: "About Page"
+      - name: "about"
         file: "content/about.yml"
         fields: 
           - {label: Title, name: title, widget: string}
-          - {label: Intro, nmae: intro, widget: markdown}
+          - {label: Intro, name: intro, widget: markdown}
+          - label: "zach"
+            name: "Zach"
+            widget: list
+            fields: 
+              - {label: Name, name: name, widget: string}
+              - {label: Title, name: title, widget: string}
+              - {label: Photo, name: photo, widget: image}
+      - label: "Skills Page"
+        name: "skills"
+        file: "content/skills.yml"
+        fields: 
+          - {label: Name, name: name, widget: string}
+          - {label: Info, name: info, widget: markdown}
+          - label: skills
+            name: Skills
+            widget: list
