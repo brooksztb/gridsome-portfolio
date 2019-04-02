@@ -3,19 +3,21 @@
 
 // Changes here requires a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
-const tailwind = require('tailwindcss');
+//Add this line of code back in if we want to go back to tailwind
+// const tailwind = require('tailwindcss');
 
-const postcssPlugins = [
-  tailwind('./tailwind.js')
-];
+// const postcssPlugins = [
+//   tailwind('./tailwind.js')
+// ];
 
 module.exports = {
   siteName: 'Zachary Brooks: Full Stack Developer',
-  css: {
-    loaderOptions: {
-      postcss: {
-        plugins: postcssPlugins
-      },
-    },
-  },
+  siteUrl: 'https://zacharybrooks.io'
+  // css: {
+  //   loaderOptions: {
+  //     postcss: {
+  //       plugins: postcssPlugins
+  //     },
+  //   },
+  // },
 }
