@@ -7,7 +7,7 @@ const tailwind = require('tailwindcss');
 
 const postcssPlugins = [
   tailwind('./tailwind.js')
-]
+];
 
 module.exports = {
   siteName: 'Zachary Brooks: Full Stack Developer',
@@ -15,7 +15,7 @@ module.exports = {
     loaderOptions: {
       postcss: {
         plugins: postcssPlugins
-      }
-    }
-  }
+      },
+    },
+  },
 }

@@ -2,7 +2,7 @@
   <div class="layout">
       <nav class="flex items-center justify-between flex-wrap bg-primary p-6">
         <div class="flex items-center flex-no-shrink text-grey mr-6">
-          <g-link class="font-semibold text-xl tracking-tight">Zachary Brooks</g-link>
+          <g-link class="font-semibold text-xl tracking-tight text-grey">Zachary Brooks</g-link>
         </div>
         <div class="block lg:hidden">
           <button class="flex items-center px-3 py-2 border rounded text-grey border-teal-grey hover:text-white hover:border-white">
