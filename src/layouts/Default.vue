@@ -17,7 +17,9 @@
         </v-list-tile-content>
       </v-list>
   </v-navigation-drawer>
-    
+  <v-container>
+    <slot></slot>
+  </v-container>
   </v-app>
 </template>
 

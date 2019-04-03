@@ -1,9 +1,3 @@
-<template>
-  <Layout>
-    <h1>About Me</h1>
-  </Layout>
-</template>
-
 <script>
 export default {
   metaInfo: {
@@ -11,3 +5,9 @@ export default {
   }
 }
 </script>
+
+<template>
+  <Layout>
+    <h1>About Me</h1>
+  </Layout>
+</template>

@@ -1,9 +1,3 @@
-<template>
-  <Layout>
-    <h1>Hello, world!</h1>
-  </Layout>
-</template>
-
 <script>
 export default {
   metaInfo: {
@@ -16,6 +10,12 @@ export default {
   }
 }
 </script>
+
+<template>
+  <Layout>
+    <h1>Hello, world!</h1>
+  </Layout>
+</template>
 
 <style>
 </style>
