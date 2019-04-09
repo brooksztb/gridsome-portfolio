@@ -13,8 +13,13 @@ export default {
 
 <template>
   <Layout>
-    <h1>Hello, world!</h1>
+    <v-layout justify-start align-center>
+    <v-flex>
+      <h1>Hello, world!</h1>
+    </v-flex>
+  </v-layout>
   </Layout>
+  
 </template>
 
 <style>
