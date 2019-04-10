@@ -13,7 +13,7 @@
 module.exports = {
   siteName: 'Zachary Brooks: Full Stack Developer',
   siteUrl: 'https://zacharybrooks.io',
-  icon: 'src/logo.png'
+  icon: 'src/logo.svg'
   // css: {
   //   loaderOptions: {
   //     postcss: {

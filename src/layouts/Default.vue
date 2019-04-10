@@ -1,24 +1,22 @@
 <template>
   <v-app id="portfolio">
     <v-navigation-drawer class="primary" fixed app mobile-break-point="960">
-      <v-list>
-        <v-list-tile-content>
-          <img src="static/images/uploads/logo.png" />
-        </v-list-tile-content>
-        <v-list-tile-content>
+      <v-layout fill-height justify-center align-center column py-4>
+        <v-flex>
+          <img src="/images/uploads/logo.svg" alt=""/>
           <div class="accent--text">{{ $static.metaData.siteName }}</div>
-        </v-list-tile-content>
-        <v-spacer></v-spacer>
-        <v-list-tile-content>
-          <v-btn class="accent--text" flat to="/">Home</v-btn>
-        </v-list-tile-content>
-        <v-list-tile-content>
-          <v-btn class="accent--text" flat to="/about">About</v-btn>
-        </v-list-tile-content>
-        <v-list-tile-content>
-          <v-btn class="accent--text" flat to="/projects">My Work</v-btn>
-        </v-list-tile-content>
-      </v-list>
+          <v-spacer></v-spacer>
+          <div class="justify-center">
+            <v-btn class="accent--text" flat to="/">Home</v-btn>
+          </div>
+          <div>
+            <v-btn class="accent--text" flat to="/about">About</v-btn>
+          </div>
+          <div>
+            <v-btn class="accent--text" flat to="/projects">My Work</v-btn>
+          </div>
+        </v-flex>
+      </v-layout>
     </v-navigation-drawer>
     <v-content>
       <v-container fluid fill-height>
