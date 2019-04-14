@@ -14,9 +14,10 @@ export default function (Vue, { router, head, isClient }) {
 
   Vue.use(Vuetify, {
     theme: {
-      primary: '#B71C1C',
-      secondary: '#757575',
-      accent: '#FFFFFF'
+      primary: '#84161B',
+      base_text: '#FFFFFF',
+      background: '#1E1F26',
+      content: '#292F35'
     }
   });
   // Set default layout as a global component
