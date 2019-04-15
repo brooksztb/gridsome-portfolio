@@ -35,10 +35,10 @@ query {
 
 <style scoped>
   .nav-bar {
-    background: -webkit-linear-gradient(150deg, #1E1F26 50%, #84161B 50%);
-    background: -o-linear-gradient(150deg, #1E1F26 50%, #84161B 50%);
-    background: -moz-linear-gradient(150deg, #1E1F26 50%, #84161B 50%);
-    background: linear-gradient(150deg, #1E1F26 50%, #84161B 50%);
+    background: -webkit-linear-gradient(150deg, #292F35 50%, #84161B 50%);
+    background: -o-linear-gradient(150deg, #292F35 50%, #84161B 50%);
+    background: -moz-linear-gradient(150deg, #292F35 50%, #84161B 50%);
+    background: linear-gradient(150deg, #292F35 50%, #84161B 50%);
   }
 
   .v-btn {
@@ -53,6 +53,6 @@ query {
 
   .main-content {
     color: #FFFFFF;
-    background-color: #292F35;
+    background-color: #1E1F26;
   }
 </style>
