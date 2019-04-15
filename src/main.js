@@ -5,11 +5,16 @@ import Vuetify from 'vuetify';
 import DefaultLayout from '~/layouts/Default.vue';
 
 import 'vuetify/dist/vuetify.min.css';
+import './stylus/main.styl';
 
 export default function (Vue, { router, head, isClient }) {
   head.link.push({
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/icon?family=Material+Icons'
+  },
+  {
+    rel: 'stylesheet',
+    href: 'https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i' 
   });
 
   Vue.use(Vuetify, {
