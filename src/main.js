@@ -7,6 +7,12 @@ import DefaultLayout from '~/layouts/Default.vue';
 import 'vuetify/dist/vuetify.min.css';
 import './stylus/main.styl';
 
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+
+library.add(faGithub, faTwitter, faLinkedin)
+
 export default function (Vue, { router, head, isClient }) {
   head.link.push({
     rel: 'stylesheet',
@@ -25,6 +31,7 @@ export default function (Vue, { router, head, isClient }) {
       content: '#292F35'
     }
   });
+  Vue.component('font-awesome', FontAwesomeIcon);
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout);
 }
