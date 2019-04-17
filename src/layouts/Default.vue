@@ -6,13 +6,24 @@
           <img class="logo" src="/images/uploads/logo.svg" alt=""/>
           <v-spacer></v-spacer>
           <div>
-            <v-btn class="base_text--text" flat to="/">Home</v-btn>
+            <v-btn class="base_text--text" flat to="/">
+              <font-awesome class="mr-2" :icon="['fas', 'home']" size="lg" /> Home
+            </v-btn>
           </div>
           <div>
-            <v-btn class="base_text--text" flat to="/about">About</v-btn>
+            <v-btn class="base_text--text" flat to="/about">
+              <font-awesome class="mr-2" :icon="['fas', 'user']" size="lg" /> About
+            </v-btn>
           </div>
           <div>
-            <v-btn class="base_text--text" flat to="/projects">My Work</v-btn>
+            <v-btn class="base_text--text" flat to="/skills">
+              <font-awesome class="mr-2" :icon="['fas', 'code']" size="lg" /> Skillset
+            </v-btn>
+          </div>
+          <div>
+            <v-btn class="base_text--text" flat to="/projects">
+              <font-awesome class="mr-2" :icon="['fas', 'project-diagram']" size="lg" /> My Work
+            </v-btn>
           </div>
         </v-flex>
         <div class="mt-auto">

@@ -9,14 +9,19 @@ import './stylus/main.styl';
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faTwitter, faLinkedin} from '@fortawesome/free-brands-svg-icons'
+import { faHome, faCode, faProjectDiagram, faUser } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faGithub, faTwitter, faLinkedin)
+library.add(faGithub, faTwitter, faLinkedin, faHome, faCode, faProjectDiagram, faUser)
 
 export default function (Vue, { router, head, isClient }) {
   head.link.push({
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/icon?family=Material+Icons'
+  },
+  {
+    rel: 'stylesheet',
+    href: 'https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css'
   },
   {
     rel: 'stylesheet',

@@ -22,30 +22,33 @@ collections:
       - name: "about"
         file: "content/home.yml"
         fields: 
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
-          - label: "intro"
-            name: "Intro"
-            widget: markdown
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Intro", name: "intro", widget: "markdown"}
+          - label: "Intro"
+            name: "intro"
+            widget: "markdown"
       - label: "About Page"
       - name: "about"
         file: "content/about.yml"
         fields: 
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
-          - label: "zach"
-            name: "Zach"
-            widget: list
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Intro", name: "intro", widget: "markdown"}
+          - label: "Zach"
+            name: "zach"
+            widget: "list"
             fields: 
-              - {label: Name, name: name, widget: string}
-              - {label: Title, name: title, widget: string}
-              - {label: Photo, name: photo, widget: image}
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Photo", name: "photo", widget: "image"}
       - label: "Skills Page"
         name: "skills"
         file: "content/skills.yml"
         fields: 
-          - {label: Name, name: name, widget: string}
-          - {label: Info, name: info, widget: markdown}
-          - label: skills
-            name: Skills
-            widget: list
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Skills Info", name: "skillsInfo", widget: "markdown"}
+          - label: "skills"
+            name: "Skills"
+            widget: "list"
+            fields: 
+              - {label: "Skill Name", name: "skillName", widget: "string"}
+              - {label: "Skill Icon Name", name: "skillIconName", widget: "string"}
