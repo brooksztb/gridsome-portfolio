@@ -5,7 +5,7 @@ media_folder: "static/images/uploads" # Media files will be stored in the repo u
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 collections:
   - label: "Projects"
-    name: "projects"
+    name: "project"
     folder: "content/projects"
     create: true
     slug: "{{slug}}"
@@ -15,12 +15,12 @@ collections:
       - {label: "Image", name: "thumbnail", widget: "image"}
       - {label: "Link to URL", name: "url", widget: "string"}
       - {label: "Description", name: "description", widget: "text"}
-  - name: "pages"
-    label: "Pages"
+  - label: "Pages"
+    name: "pages"
     files:
       - label: "Home Page"
-      - name: "about"
-        file: "content/home.yml"
+        name: "home"
+        file: "content/home.md"
         fields: 
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Intro", name: "intro", widget: "markdown"}
@@ -28,21 +28,16 @@ collections:
             name: "intro"
             widget: "markdown"
       - label: "About Page"
-      - name: "about"
-        file: "content/about.yml"
+        name: "about"
+        file: "content/about.md"
         fields: 
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Intro", name: "intro", widget: "markdown"}
-          - label: "Zach"
-            name: "zach"
-            widget: "list"
-            fields: 
-              - {label: "Name", name: "name", widget: "string"}
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Photo", name: "photo", widget: "image"}
+          - {label: "Intro", name: "intro", widget: "text"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Photo", name: "photo", widget: "image"}
       - label: "Skills Page"
         name: "skills"
-        file: "content/skills.yml"
+        file: "content/skills.md"
         fields: 
           - {label: "Name", name: "name", widget: "string"}
           - {label: "Skills Info", name: "skillsInfo", widget: "markdown"}

@@ -83,6 +83,7 @@ query {
 
   .main-content {
     color: #FFFFFF;
-    background-color: #1E1F26;
+    background-color: #222831;
+    /* background-color: #1E1F26; Cant decide between the two background colors*/
   }
 </style>

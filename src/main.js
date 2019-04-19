@@ -32,8 +32,8 @@ export default function (Vue, { router, head, isClient }) {
     theme: {
       primary: '#84161B',
       base_text: '#FFFFFF',
-      background: '#1E1F26',
-      content: '#292F35'
+      secondary: '#292F35',
+      content_background: '#222831'
     }
   });
   Vue.component('font-awesome', FontAwesomeIcon);
