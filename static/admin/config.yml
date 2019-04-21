@@ -1,12 +1,13 @@
 backend:
-  name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  name: github
+  repo: brooksztb/gridsome-portfolio
+  branch: master
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 collections:
   - label: "Projects"
     name: "project"
-    folder: "content/projects"
+    folder: "src/content/projects"
     create: true
     slug: "{{slug}}"
     fields:
@@ -20,24 +21,32 @@ collections:
     files:
       - label: "Home Page"
         name: "home"
-        file: "content/home.md"
+        file: "src/content/home.md"
         fields: 
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Intro", name: "intro", widget: "markdown"}
-          - label: "Intro"
-            name: "intro"
-            widget: "markdown"
       - label: "About Page"
         name: "about"
-        file: "content/about.md"
+        file: "src/content/about.md"
         fields: 
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Intro", name: "intro", widget: "text"}
           - {label: "Description", name: "description", widget: "text"}
           - {label: "Photo", name: "photo", widget: "image"}
+          - label: "History"
+            name: "history"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Descriptor", name: "descriptor", widget: "string"}
+              - {label: "Timeline", name: "timeline", widget: "string"}
+              - label: "Info Items"
+                name: "infoItems"
+                widget: "list"
+                field: {label: "Info", name: "info", widget: "text"}
       - label: "Skills Page"
         name: "skills"
-        file: "content/skills.md"
+        file: "src/content/skills.md"
         fields: 
           - {label: "Name", name: "name", widget: "string"}
           - {label: "Skills Info", name: "skillsInfo", widget: "markdown"}
