@@ -8,6 +8,19 @@ export default {
 
 <template>
   <Layout>
-    <h1>About Me</h1>
+    <h1>{{$page.allAbout.edges[0].node.title}}</h1>
   </Layout>
 </template>
+
+<page-query>
+query AboutPage {
+  allAbout {
+    edges {
+      node {
+        title
+    		intro
+      }
+    }
+  }
+}
+</page-query>

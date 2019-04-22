@@ -13,7 +13,7 @@
 module.exports = {
   siteName: 'Zachary Brooks: Full Stack Developer',
   siteUrl: 'https://zacharybrooks.io',
-  icon: 'src/logo.svg'
+  icon: 'src/logo.svg',
   // css: {
   //   loaderOptions: {
   //     postcss: {
@@ -21,4 +21,46 @@ module.exports = {
   //     },
   //   },
   // },
+  transformers: {
+    remark: {
+      externalLinksTarget: '_blank',
+      externalLinksRel: ['nofollow', 'noopener', 'noreferrer']
+    }
+  },
+  plugins: [
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'src/content/projects/*.md',
+        typeName: 'Project'
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'src/content/pages/about.md',
+        typeName: 'About'
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'src/content/pages/home.md',
+        typeName: 'Home'
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'src/content/pages/skills.md',
+        typeName: 'Skill'
+      }
+    },
+    {
+      use: `gridsome-plugin-netlify-cms`,
+      options: {
+        publicPath: `/admin`
+      }
+    }
+  ]
 }

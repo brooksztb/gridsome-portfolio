@@ -11,8 +11,11 @@
     "@fortawesome/free-brands-svg-icons": "^5.8.1",
     "@fortawesome/free-solid-svg-icons": "^5.8.1",
     "@fortawesome/vue-fontawesome": "^0.1.6",
-    "gridsome": "^0.5.0",
-    "vuetify": "^1.5.9",
+    "@gridsome/source-filesystem": "^0.3.0",
+    "@gridsome/transformer-remark": "^0.2.1",
+    "gridsome": "^0.5.8",
+    "gridsome-plugin-netlify-cms": "^1.0.6",
+    "vuetify": "^1.5.12",
     "webpack-node-externals": "^1.7.2"
   },
   "devDependencies": {

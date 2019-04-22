@@ -21,13 +21,13 @@ collections:
     files:
       - label: "Home Page"
         name: "home"
-        file: "src/content/home.md"
+        file: "src/content/pages/home.md"
         fields: 
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Intro", name: "intro", widget: "markdown"}
       - label: "About Page"
         name: "about"
-        file: "src/content/about.md"
+        file: "src/content/pages/about.md"
         fields: 
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Intro", name: "intro", widget: "text"}
@@ -46,7 +46,7 @@ collections:
                 field: {label: "Info", name: "info", widget: "text"}
       - label: "Skills Page"
         name: "skills"
-        file: "src/content/skills.md"
+        file: "src/content/pages/skills.md"
         fields: 
           - {label: "Name", name: "name", widget: "string"}
           - {label: "Skills Info", name: "skillsInfo", widget: "markdown"}
