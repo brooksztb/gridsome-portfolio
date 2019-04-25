@@ -38,28 +38,8 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'src/content/pages/about.md',
-        typeName: 'About'
-      }
-    },
-    {
-      use: '@gridsome/source-filesystem',
-      options: {
-        path: 'src/content/pages/home.md',
-        typeName: 'Home'
-      }
-    },
-    {
-      use: '@gridsome/source-filesystem',
-      options: {
-        path: 'src/content/pages/skills.md',
-        typeName: 'Skill'
-      }
-    },
-    {
-      use: `gridsome-plugin-netlify-cms`,
-      options: {
-        publicPath: `/admin`
+        path: './src/content/pages/*.md',
+        typeName: 'ContentPage'
       }
     }
   ]

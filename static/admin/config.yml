@@ -31,8 +31,8 @@ collections:
         fields: 
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Intro", name: "intro", widget: "text"}
-          - {label: "Description", name: "description", widget: "text"}
           - {label: "Photo", name: "photo", widget: "image"}
+          - {label: "Description", name: "description", widget: "markdown"}
           - label: "History"
             name: "history"
             widget: "list"

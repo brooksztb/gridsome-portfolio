@@ -8,19 +8,14 @@ export default {
 
 <template>
   <Layout>
-    <h1>{{$page.allAbout.edges[0].node.title}}</h1>
+    <h1>{{$page.contentPage.title}}</h1>
   </Layout>
 </template>
 
 <page-query>
-query AboutPage {
-  allAbout {
-    edges {
-      node {
-        title
-    		intro
-      }
-    }
+query About {
+  contentPage(path: "/src/content/pages/about") {
+    title
   }
 }
 </page-query>
