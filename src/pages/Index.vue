@@ -15,7 +15,7 @@ export default {
   <Layout>
     <v-layout justify-start align-center>
     <v-flex>
-      <h1>Hello, world!</h1>
+      <h1>Site is a work in progress! Sorry for the lack of content right now!</h1>
     </v-flex>
   </v-layout>
   </Layout>
