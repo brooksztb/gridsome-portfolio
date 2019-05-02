@@ -35,7 +35,7 @@ export default {
             </v-btn>
           </div>
           <div>
-            <v-btn class="base_text--text" flat to="/projects">
+            <v-btn class="base_text--text" flat to="/work">
               <font-awesome class="mr-2" :icon="['fas', 'project-diagram']" size="lg" /> My Work
             </v-btn>
           </div>

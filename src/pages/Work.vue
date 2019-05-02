@@ -1,14 +1,14 @@
 <script>
 export default {
     metaInfo: {
-        title: 'Projects'
+        title: 'My Work'
     }
 }
 </script>
 
 <template>
     <Layout>
-        <h1>Projects</h1>
+        <h1>My Work</h1>
     </Layout>
 </template>
 
