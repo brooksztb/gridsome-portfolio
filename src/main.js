@@ -3,6 +3,7 @@
 
 import Vuetify from 'vuetify';
 import DefaultLayout from '~/layouts/Default.vue';
+import VueMq from 'vue-mq'
 
 import 'vuetify/dist/vuetify.min.css';
 import './stylus/main.styl';
@@ -34,6 +35,16 @@ export default function (Vue, { router, head, isClient }) {
       base_text: '#FFFFFF',
       secondary: '#292F35',
       content_background: '#222831'
+    }
+  });
+
+  Vue.use(VueMq, {
+    breakpoints: {
+      xs: 600,
+      sm: 960,
+      md: 1264,
+      lg: 1904,
+      xl: 1905
     }
   });
   Vue.component('font-awesome', FontAwesomeIcon);

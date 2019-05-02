@@ -1,6 +1,20 @@
+<script>
+export default {
+  name: 'App',
+  data () {
+    return {
+      drawer: true
+    }
+  }
+}
+</script>
 <template>
   <v-app id="portfolio">
-    <v-navigation-drawer class="nav-bar" fixed app mobile-break-point="960">
+    <v-toolbar fixed flat dark class="hidden-md-and-up transparent">
+      <v-spacer></v-spacer>
+      <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
+    </v-toolbar>
+    <v-navigation-drawer fixed :persistent="$mq === 'md'" :temporary="$mq === 'sm'" class="nav-bar" mobile-break-point="800" app v-model="drawer">
       <v-layout fill-height justify-center align-center column py-4>
         <v-flex>
           <img class="logo" src="/images/uploads/logo.svg" alt=""/>
