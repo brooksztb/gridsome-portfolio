@@ -18,6 +18,19 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
+        path: 'src/content/video-presentations/*.md',
+        typeName: 'VideoPresentation',
+        route: '/work/:slug',
+        remark: {
+          plugins: [
+            ['gridsome-plugin-remark-youtube', {width: '500px'}]
+          ]
+        }
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
         path: 'src/content/projects/*.md',
         typeName: 'Project'
       }

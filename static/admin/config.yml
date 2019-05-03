@@ -5,9 +5,9 @@ backend:
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 collections:
-  - label: "WorkItems"
-    name: "workitem"
-    folder: "src/content/workitems"
+  - label: "Projects"
+    name: "projects"
+    folder: "src/content/projects"
     create: true
     slug: "{{slug}}"
     fields:
@@ -15,7 +15,27 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "thumbnail", widget: "image"}
       - {label: "Link to URL", name: "url", widget: "string"}
-      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Description", name: "description", widget: "markdown"}
+  - label: "Side Projects"
+    name: "sideProjects"
+    folder: "src/content/side-projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "sideProject"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Image", name: "thumbnail", widget: "image"}
+      - {label: "Link to URL", name: "url", widget: "string"}
+      - {label: "Description", name: "description", widget: "markdown"}
+  - label: "Presentations"
+    name: "presentations"
+    folder: "src/content/video-presentations"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "presentation"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Youtube Url", name: "youtube", widget: "string"}
   - label: "Pages"
     name: "pages"
     files:
