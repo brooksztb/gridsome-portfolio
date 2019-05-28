@@ -26,7 +26,7 @@ export default function (Vue, { router, head, isClient }) {
   },
   {
     rel: 'stylesheet',
-    href: 'https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i' 
+    href: 'https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&display=swap' 
   });
 
   Vue.use(Vuetify, {

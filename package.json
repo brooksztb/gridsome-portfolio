@@ -7,20 +7,22 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.17",
-    "@fortawesome/free-brands-svg-icons": "^5.8.1",
-    "@fortawesome/free-solid-svg-icons": "^5.8.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.18",
+    "@fortawesome/free-brands-svg-icons": "^5.8.2",
+    "@fortawesome/free-solid-svg-icons": "^5.8.2",
     "@fortawesome/vue-fontawesome": "^0.1.6",
     "@gridsome/source-filesystem": "^0.3.0",
     "@gridsome/transformer-remark": "^0.2.1",
-    "gridsome": "^0.5.8",
+    "gridsome": "^0.6.3",
     "gridsome-plugin-remark-youtube": "^1.0.1",
     "vue-mq": "^1.0.1",
-    "vuetify": "^1.5.13",
+    "vuetify": "^1.5.14",
     "webpack-node-externals": "^1.7.2"
   },
   "devDependencies": {
     "css-loader": "^2.1.1",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2"
