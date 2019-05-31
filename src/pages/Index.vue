@@ -1,7 +1,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'Home'
   },
   mounted() {
     let netlifyScript = document.createElement('script');
@@ -49,7 +49,7 @@ export default {
 		width: 0px;
 		height: 1px;
 		left: 0;
-		background-color: rgba(0,0,0,0.2);
+		background-color: rgba(34, 40, 49, 0.2);
 		z-index: -1;
 	}
 	
