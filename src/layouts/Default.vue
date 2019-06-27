@@ -17,7 +17,7 @@ export default {
     <v-navigation-drawer fixed :persistent="$mq === 'md'" :temporary="$mq === 'sm'" class="nav-bar" mobile-break-point="800" app v-model="drawer">
       <v-layout fill-height justify-center align-center column py-4>
         <v-flex>
-          <img class="logo" src="/images/uploads/logo.svg" alt=""/>
+          <g-image class="logo" src="/images/uploads/logo.svg" alt=""/>
           <v-spacer></v-spacer>
           <div>
             <v-btn class="base_text--text" flat to="/">
