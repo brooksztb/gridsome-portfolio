@@ -1,11 +1,3 @@
-<script>
-export default {
-  metaInfo: {
-    title: 'About Me'
-  }
-}
-</script>
-
 <template>
   <Layout>
     <h1>{{$page.contentPage.title}}</h1>
@@ -19,3 +11,11 @@ query About {
   }
 }
 </page-query>
+
+<script>
+export default {
+  metaInfo: {
+    title: "About Me"
+  }
+};
+</script>

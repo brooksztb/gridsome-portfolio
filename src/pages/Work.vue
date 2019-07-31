@@ -1,17 +1,16 @@
-<script>
-export default {
-    metaInfo: {
-        title: 'My Work'
-    }
-}
-</script>
-
 <template>
-    <Layout>
-        <h1>My Work</h1>
-    </Layout>
+  <Layout>
+    <h1>My Work</h1>
+  </Layout>
 </template>
 
-<style scoped>
+<script>
+export default {
+  metaInfo: {
+    title: "My Work"
+  }
+};
+</script>
 
+<style scoped>
 </style>
