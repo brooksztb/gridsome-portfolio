@@ -6,7 +6,7 @@ import DefaultLayout from "~/layouts/Default.vue";
 import VueMq from "vue-mq";
 
 import "vuetify/dist/vuetify.min.css";
-import "./stylus/main.styl";
+// import "./assets/sass/main.scss";
 
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";

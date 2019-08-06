@@ -12,6 +12,7 @@
       mobile-break-point="800"
       app
       v-model="drawer"
+      width="300"
     >
       <v-layout fill-height justify-center align-center column py-4>
         <v-flex>

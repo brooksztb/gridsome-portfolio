@@ -7,7 +7,8 @@
 <page-query>
 query About {
   contentPage(path: "/src/content/pages/about") {
-    title
+    title,
+    intro
   }
 }
 </page-query>
