@@ -10,7 +10,7 @@ import "vuetify/dist/vuetify.min.css";
 
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import "@mdi/font/css/materialdesignicons.css";
+// import "@mdi/font/css/materialdesignicons.css";
 import {
   faGithub,
   faTwitter,
@@ -35,6 +35,11 @@ library.add(
 
 export default function(Vue, { appOptions, router, head, isClient }) {
   head.link.push(
+    {
+      rel: "stylesheet",
+      href:
+        "https://cdn.jsdelivr.net/npm/@mdi/font@3.x/css/materialdesignicons.min.css"
+    },
     {
       rel: "stylesheet",
       href:
