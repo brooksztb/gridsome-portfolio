@@ -107,7 +107,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang='scss' scoped>
 .nav-bar {
   background: -webkit-linear-gradient(121deg, #292f35 50%, #84161b 50%);
   background: -o-linear-gradient(121deg, #292f35 50%, #84161b 50%);

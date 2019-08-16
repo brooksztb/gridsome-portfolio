@@ -1,12 +1,13 @@
 // This is the main.js file. Import global CSS and scripts here.
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 
-import Vuetify from "vuetify";
+// import Vuetify from "vuetify";
+import Vuetify from 'vuetify';
 import DefaultLayout from "~/layouts/Default.vue";
 import VueMq from "vue-mq";
 
 import "vuetify/dist/vuetify.min.css";
-// import "./assets/sass/main.scss";
+// import "./assets/scss/main.scss";
 
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
