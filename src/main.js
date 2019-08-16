@@ -56,10 +56,14 @@ export default function(Vue, { appOptions, router, head, isClient }) {
   const opts = {
     theme: {
       dark: true,
-      primary: "#84161B",
-      base_text: "#FFFFFF",
-      secondary: "#292F35",
-      content_background: "#222831"
+      themes: {
+        dark: {
+          primary: "#84161B",
+          base_text: "#FFFFFF",
+          secondary: "#292F35",
+          content_background: "#222831"
+        }
+      }
     },
     icons: {
       iconfont: "mdi"

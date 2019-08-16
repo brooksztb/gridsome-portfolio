@@ -2,14 +2,14 @@
   <Layout>
     <div>
       <h1 class='font-weight-bold'>{{$page.contentPage.intro}}</h1>
-      <v-card class='card mx-auto' color='secondary' outlined='true'>
-        <v-card-text class='headline font-weight-bold'>
+      <v-card class='card mx-auto' color='secondary' raised='true'>
+        <v-card-text class='headline'>
           {{$page.contentPage.description}}
         </v-card-text>
       </v-card>
       <v-timeline light='false'>
         <v-timeline-item class='text-right' v-for='(item, index) in $page.contentPage.history' :key='index' color='white'>
-          <v-card class='card mx-auto' color='secondary' outlined='true'>
+          <v-card class='card mx-auto' color='secondary' raised='true'>
             <v-card-title>
               {{item.timeline}}
             </v-card-title>
