@@ -54,8 +54,8 @@ export default function(Vue, { appOptions, router, head, isClient }) {
   );
 
   const opts = {
-    dark: false,
     theme: {
+      dark: true,
       primary: "#84161B",
       base_text: "#FFFFFF",
       secondary: "#292F35",

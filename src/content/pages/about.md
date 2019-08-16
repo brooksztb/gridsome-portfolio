@@ -1,6 +1,6 @@
 ---
 title: Zachary Brooks - Full Stack Developer
-intro: Full stack developer with a passion for Frontend Development
+intro: Hello there, i'm Zach
 photo: /images/uploads/file_000.jpeg
 description: >-
   I've been working as a software developer for the past 4 years and originally
@@ -21,13 +21,22 @@ description: >-
   weekly podcast about pop culture which you can read more about
   [here](https://z2podcast.com).
 history:
-  - descriptor: >-
-      Studied Software Engineering (Major) and History (Minor) and Graduated
-      with a Bachelor of Science in Software Engineering
+  - descriptor: Software Developer II
     infoItems:
-      - Recipient of University of Northern Colorado Bear Track Scholarship
-    timeline: August 2011 - May 2015
-    title: University of Northern Colorado
+      - >-
+        Worked and maintained a multibillion-dollar customer facing website that
+        booked customer airline tickets
+      - >-
+        Worked with business teams to develop new features into the website as
+        well as implement third party tools
+      - >-
+        Pair Programmed with teammates to solve problems and develop new
+        features, as well as pear review code 
+      - >-
+        Developed customer facing tools such as a new Loyalty Profile, Bundles
+        Ancillary
+    timeline: February 2016 - Present
+    title: Frontier Airlines
   - descriptor: Business System Analyst
     infoItems:
       - >-
@@ -42,22 +51,12 @@ history:
       - 'Working with SQL Databases  '
     timeline: July 2015 - February 2016
     title: 'Lenderlive Network Inc. '
-  - descriptor: Software Developer II
+  - descriptor: >-
+      Studied Software Engineering (Major) and History (Minor) and Graduated
+      with a Bachelor of Science in Software Engineering
     infoItems:
-      - >-
-        Worked and maintained a multibillion-dollar customer facing website that
-        booked customer airline tickets
-      - 'Worked with a team of developers to fix production issues '
-      - >-
-        Worked with business teams to develop new features into the website as
-        well as implement third party tools
-      - >-
-        Pair Programmed with teammates to solve problems and develop new
-        features, as well as pear review code 
-      - >-
-        Developed customer facing tools such as a new Loyalty Profile, Bundles
-        Ancillary
-    timeline: February 2016 - Present
-    title: Frontier Airlines
+      - Recipient of University of Northern Colorado Bear Track Scholarship
+    timeline: August 2011 - May 2015
+    title: University of Northern Colorado
 ---
 
