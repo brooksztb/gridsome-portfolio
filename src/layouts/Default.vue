@@ -19,28 +19,28 @@
           <g-image class="logo" src="/images/uploads/logo.svg" alt />
           <v-spacer></v-spacer>
           <div>
-            <v-btn class="base_text--text" color="white" text to="/">
+            <v-btn class="base_text--text" color="white" text to="/" name="home">
               <font-awesome class="mr-2" :icon="['fas', 'home']" size="lg" />Home
             </v-btn>
           </div>
           <div>
-            <v-btn class="base_text--text" color="white" text to="/about">
+            <v-btn class="base_text--text" color="white" text to="/about" name="about">
               <font-awesome class="mr-2" :icon="['fas', 'user']" size="lg" />About
             </v-btn>
           </div>
           <div>
-            <v-btn class="base_text--text" color="white" text to="/skills">
+            <v-btn class="base_text--text" color="white" text to="/skills" name="skills">
               <font-awesome class="mr-2" :icon="['fas', 'code']" size="lg" />Skillset
             </v-btn>
           </div>
           <div>
-            <v-btn class="base_text--text" color="white" text to="/work">
+            <v-btn class="base_text--text" color="white" text to="/work" name="work">
               <font-awesome class="mr-2" :icon="['fas', 'project-diagram']" size="lg" />My Work
             </v-btn>
           </div>
         </v-flex>
         <div class="mt-auto">
-          <div class="layout row my-4">
+          <div class="layout row my-6">
             <v-btn
               class="mx-2"
               text
