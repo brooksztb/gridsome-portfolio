@@ -6,17 +6,21 @@ module.exports = {
       lg: "1024px",
       xl: "1280px"
     },
-    fontFamily: {
-      display: ["Oswald", "sans-serif"],
-      body: ["Oswald", "sans-serif"]
+    flex: {
+      '1': '1 0 auto'
     },
-    color: {
-      red: "#84161b",
-      black: {
-        default: "#292f35",
-        dark: "#222831"
-      }
+    fontFamily: {
+      display: ['Oswald', "sans-serif"],
+      body: ['Oswald', "sans-serif"]
+    },
+    extend: {
+      colors: {
+        'logo-red': "#84161b",
+        'logo-gray': '#292f35',
+        'content-bg': '#222831',
+      },
     }
+    
   },
   variants: {},
   plugins: []

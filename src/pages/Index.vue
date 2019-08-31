@@ -1,12 +1,10 @@
 <template>
   <Layout>
-    <v-layout justify-start align-center>
-      <v-flex>
-        <div class="title-container">
-          <h1 class="title-animated">Full Stack Developer, Front End Passion</h1>
-        </div>
-      </v-flex>
-    </v-layout>
+    <div>
+      <div class="title-container">
+        <h1 class="title-animated">Full Stack Developer, Front End Passion</h1>
+      </div>
+    </div>
   </Layout>
 </template>
 

@@ -3,7 +3,7 @@
     <nav class="flex">
       <!--Menu icon-->
     </nav>
-    <div class="flex items-center flex-wrap p-6 w-300 h-full nav-bar">
+    <div class="fixed top-0 flex items-center flex-wrap w-64 h-screen nav-bar">
       <g-image class="logo" src="/images/uploads/logo.svg" alt />
       <div>
         <button
@@ -70,10 +70,8 @@
         <div class="my-4"></div>
       </div>-->
     </div>
-    <div>
-      <div class="container mx-auto bg-black-dark text-white">
-        <slot></slot>
-      </div>
+    <div class="flex flex-1 items-center max-w-full pl-64 h-screen mx-auto bg-content-bg text-white">
+      <slot></slot>
     </div>
   </div>
   <!-- <v-app id="portfolio">
