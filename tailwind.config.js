@@ -19,6 +19,9 @@ module.exports = {
         'logo-gray': '#292f35',
         'content-bg': '#222831',
       },
+      spacing: {
+        xl: '300px'
+      },
     }
     
   },

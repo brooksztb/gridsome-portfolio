@@ -3,164 +3,54 @@
     <nav class="flex">
       <!--Menu icon-->
     </nav>
-    <div class="fixed top-0 flex items-center flex-wrap w-64 h-screen nav-bar">
-      <g-image class="logo" src="/images/uploads/logo.svg" alt />
-      <div>
-        <button
-          class="bg-gray-300 hover:bg-gray-400 text-white font-bold py-2 px-4 rounded inline-flex items-center"
-          to="/"
+    <div class="fixed top-0 flex flex-col items-center justify-between w-xl h-screen nav-bar">
+      <div class="flex flex-col flex-wrap mx-auto items-center justify-center w-full px-8">
+        <g-image class="logo" src="/images/uploads/logo.svg" alt />
+        <g-link
+          class="hover:bg-white hover:text-logo-gray text-white font-bold py-2 px-6 rounded inline-flex items-center justify-center w-full"
+          to="/" active-class="border border-white" exact
         >
-          <font-awesome :icon="['fas', 'home']" size="lg" />
+          <font-awesome class="mr-2" :icon="['fas', 'home']" size="lg" />
           <span>Home</span>
-        </button>
+        </g-link>
+        <g-link
+          class="hover:bg-white hover:text-logo-gray text-white font-bold py-2 px-6 rounded inline-flex items-center justify-center w-full"
+          to="/about" active-class="border border-white"
+        >
+          <font-awesome class="mr-2" :icon="['fas', 'user']" size="lg" />
+          <span>About</span>
+        </g-link>
+        <g-link
+          class="hover:bg-white hover:text-logo-gray text-white font-bold py-2 px-6 rounded inline-flex items-center justify-center w-full"
+          to="/skills" active-class="border border-white"
+        >
+          <font-awesome class="mr-2" :icon="['fas', 'code']" size="lg" />
+          <span>Skillset</span>
+        </g-link>
+        <g-link
+          class="hover:bg-white hover:text-logo-gray text-white font-bold py-2 px-6 rounded inline-flex items-center justify-center w-full"
+          to="/work" active-class="border border-white"
+        >
+          <font-awesome class="mr-2" :icon="['fas', 'project-diagram']" size="lg" />
+          <span>Work</span>
+        </g-link>
       </div>
-      <!-- <div>
-          <v-btn class="base_text--text" color="white" text to="/about" name="about">
-            <font-awesome class="mr-2" :icon="['fas', 'user']" size="lg" />About
-          </v-btn>
-        </div>
-        <div>
-          <v-btn class="base_text--text" color="white" text to="/skills" name="skills">
-            <font-awesome class="mr-2" :icon="['fas', 'code']" size="lg" />Skillset
-          </v-btn>
-        </div>
-        <div>
-          <v-btn class="base_text--text" color="white" text to="/work" name="work">
-            <font-awesome class="mr-2" :icon="['fas', 'project-diagram']" size="lg" />My Work
-          </v-btn>
-        </div>
+      <div class="flex items-center justify-between mx-auto py-10 px-6 w-full">
+        <a href="https://twitter.com/zacann0n" target="_blank" title="Twitter Profile" class="hover:text-logo-gray text-white mx-2">
+          <font-awesome :icon="['fab', 'twitter']" size="lg" />
+        </a>
+        <a href="https://www.linkedin.com/in/zachary-brooks-3b8b5b84/" target="_blank" title="Linkedin Profile" class="hover:text-logo-gray text-white mx-2">
+          <font-awesome :icon="['fab', 'linkedin']" size="lg" />
+        </a>
+        <a href="https://github.com/brooksztb" target="_blank" title="Github Profile" class="hover:text-logo-gray text-white mx-2">
+          <font-awesome :icon="['fab', 'github']" size="lg" />
+        </a>
       </div>
-      <div class="mt-auto">
-        <div class="layout row my-6">
-          <v-btn
-            class="mx-2"
-            text
-            icon
-            href="https://twitter.com/zacann0n"
-            color="white"
-            title="Twitter Profile"
-            target="_blank"
-          >
-            <font-awesome :icon="['fab', 'twitter']" size="lg" />
-          </v-btn>
-          <v-btn
-            class="mx-2"
-            text
-            icon
-            href="https://www.linkedin.com/in/zachary-brooks-3b8b5b84/"
-            color="white"
-            title="Linkedin Profile"
-            target="_blank"
-          >
-            <font-awesome :icon="['fab', 'linkedin']" size="lg" />
-          </v-btn>
-          <v-btn
-            class="mx-2"
-            text
-            icon
-            href="https://github.com/brooksztb"
-            color="white"
-            title="Github Profile"
-            target="_blank"
-          >
-            <font-awesome :icon="['fab', 'github']" size="lg" />
-          </v-btn>
-        </div>
-        <div class="my-4"></div>
-        <div class="my-4"></div>
-      </div>-->
     </div>
-    <div class="flex flex-1 items-center max-w-full pl-64 h-screen mx-auto bg-content-bg text-white">
+    <div class="flex flex-1 items-center max-w-full pl-xl h-screen mx-auto bg-content-bg text-white">
       <slot></slot>
     </div>
   </div>
-  <!-- <v-app id="portfolio">
-    <v-toolbar fixed text dark class="hidden-md-and-up transparent">
-      <v-spacer></v-spacer>
-      <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
-    </v-toolbar>
-    <v-navigation-drawer
-      fixed
-      :persistent="$mq === 'md'"
-      :temporary="$mq === 'sm'"
-      class="nav-bar"
-      mobile-break-point="800"
-      app
-      v-model="drawer"
-      width="300"
-    >
-      <v-layout fill-height justify-center align-center column py-4>
-        <v-flex>
-          <g-image class="logo" src="/images/uploads/logo.svg" alt />
-          <v-spacer></v-spacer>
-          <div>
-            <v-btn class="base_text--text" color="white" text to="/" name="home">
-              <font-awesome class="mr-2" :icon="['fas', 'home']" size="lg" />Home
-            </v-btn>
-          </div>
-          <div>
-            <v-btn class="base_text--text" color="white" text to="/about" name="about">
-              <font-awesome class="mr-2" :icon="['fas', 'user']" size="lg" />About
-            </v-btn>
-          </div>
-          <div>
-            <v-btn class="base_text--text" color="white" text to="/skills" name="skills">
-              <font-awesome class="mr-2" :icon="['fas', 'code']" size="lg" />Skillset
-            </v-btn>
-          </div>
-          <div>
-            <v-btn class="base_text--text" color="white" text to="/work" name="work">
-              <font-awesome class="mr-2" :icon="['fas', 'project-diagram']" size="lg" />My Work
-            </v-btn>
-          </div>
-        </v-flex>
-        <div class="mt-auto">
-          <div class="layout row my-6">
-            <v-btn
-              class="mx-2"
-              text
-              icon
-              href="https://twitter.com/zacann0n"
-              color="white"
-              title="Twitter Profile"
-              target="_blank"
-            >
-              <font-awesome :icon="['fab', 'twitter']" size="lg" />
-            </v-btn>
-            <v-btn
-              class="mx-2"
-              text
-              icon
-              href="https://www.linkedin.com/in/zachary-brooks-3b8b5b84/"
-              color="white"
-              title="Linkedin Profile"
-              target="_blank"
-            >
-              <font-awesome :icon="['fab', 'linkedin']" size="lg" />
-            </v-btn>
-            <v-btn
-              class="mx-2"
-              text
-              icon
-              href="https://github.com/brooksztb"
-              color="white"
-              title="Github Profile"
-              target="_blank"
-            >
-              <font-awesome :icon="['fab', 'github']" size="lg" />
-            </v-btn>
-          </div>
-          <div class="my-4"></div>
-          <div class="my-4"></div>
-        </div>
-      </v-layout>
-    </v-navigation-drawer>
-    <v-content>
-      <v-container class="main-content" fluid fill-height>
-        <slot></slot>
-      </v-container>
-    </v-content>
-  </v-app>-->
 </template>
 
 <static-query>
@@ -184,6 +74,7 @@ export default {
 
 <style scoped>
 .nav-bar {
+  width: 300px;
   background: -webkit-linear-gradient(121deg, #292f35 50%, #84161b 50%);
   background: -o-linear-gradient(121deg, #292f35 50%, #84161b 50%);
   background: -moz-linear-gradient(121deg, #292f35 50%, #84161b 50%);
