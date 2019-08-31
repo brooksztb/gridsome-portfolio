@@ -1,5 +1,5 @@
 <template>
-  <div id="portfolio">
+  <div id="portfolio" class="font-body">
     <nav class="flex">
       <!--Menu icon-->
     </nav>
