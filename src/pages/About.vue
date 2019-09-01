@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1>{{$page.contentPage.title}}</h1>
+    <time-line :data="$page.contentPage.history"></time-line>
   </Layout>
 </template>
 
@@ -8,15 +8,29 @@
 query About {
   contentPage(path: "/src/content/pages/about") {
     title,
-    intro
+    intro,
+    description,
+    history {
+      descriptor,
+      infoItems,
+      start,
+      end,
+      title,
+      location
+    }
   }
 }
 </page-query>
 
 <script>
+import TimeLine from "@/components/TimeLine.vue";
+
 export default {
   metaInfo: {
     title: "About Me"
+  },
+  components: {
+    TimeLine
   }
 };
 </script>

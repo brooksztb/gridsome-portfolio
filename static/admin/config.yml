@@ -2,77 +2,98 @@ backend:
   name: github
   repo: brooksztb/gridsome-portfolio
   branch: master
-media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
-public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+media_folder: 'static/images/uploads' # Media files will be stored in the repo under static/images/uploads
+public_folder: '/images/uploads' # The src attribute for uploaded media will begin with /images/uploads
 collections:
-  - label: "Projects"
-    name: "projects"
-    folder: "src/content/projects"
+  - label: 'Projects'
+    name: 'projects'
+    folder: 'src/content/projects'
     create: true
-    slug: "{{slug}}"
+    slug: '{{slug}}'
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "project"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Image", name: "thumbnail", widget: "image"}
-      - {label: "Link to URL", name: "url", widget: "string"}
-      - {label: "Description", name: "description", widget: "markdown"}
-  - label: "Side Projects"
-    name: "sideProjects"
-    folder: "src/content/side-projects"
+      - {
+          label: 'Layout',
+          name: 'layout',
+          widget: 'hidden',
+          default: 'project',
+        }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Image', name: 'thumbnail', widget: 'image' }
+      - { label: 'Link to URL', name: 'url', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'markdown' }
+  - label: 'Side Projects'
+    name: 'sideProjects'
+    folder: 'src/content/side-projects'
     create: true
-    slug: "{{slug}}"
+    slug: '{{slug}}'
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "sideProject"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Image", name: "thumbnail", widget: "image"}
-      - {label: "Link to URL", name: "url", widget: "string"}
-      - {label: "Description", name: "description", widget: "markdown"}
-  - label: "Presentations"
-    name: "presentations"
-    folder: "src/content/video-presentations"
+      - {
+          label: 'Layout',
+          name: 'layout',
+          widget: 'hidden',
+          default: 'sideProject',
+        }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Image', name: 'thumbnail', widget: 'image' }
+      - { label: 'Link to URL', name: 'url', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'markdown' }
+  - label: 'Presentations'
+    name: 'presentations'
+    folder: 'src/content/video-presentations'
     create: true
-    slug: "{{slug}}"
+    slug: '{{slug}}'
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "presentation"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Youtube Url", name: "youtube", widget: "string"}
-  - label: "Pages"
-    name: "pages"
+      - {
+          label: 'Layout',
+          name: 'layout',
+          widget: 'hidden',
+          default: 'presentation',
+        }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Youtube Url', name: 'youtube', widget: 'string' }
+  - label: 'Pages'
+    name: 'pages'
     files:
-      - label: "Home Page"
-        name: "home"
-        file: "src/content/pages/home.md"
-        fields: 
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Intro", name: "intro", widget: "markdown"}
-      - label: "About Page"
-        name: "about"
-        file: "src/content/pages/about.md"
-        fields: 
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Intro", name: "intro", widget: "text"}
-          - {label: "Photo", name: "photo", widget: "image"}
-          - {label: "Description", name: "description", widget: "markdown"}
-          - label: "History"
-            name: "history"
-            widget: "list"
+      - label: 'Home Page'
+        name: 'home'
+        file: 'src/content/pages/home.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Intro', name: 'intro', widget: 'markdown' }
+      - label: 'About Page'
+        name: 'about'
+        file: 'src/content/pages/about.md'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Intro', name: 'intro', widget: 'text' }
+          - { label: 'Photo', name: 'photo', widget: 'image' }
+          - { label: 'Description', name: 'description', widget: 'markdown' }
+          - label: 'History'
+            name: 'history'
+            widget: 'list'
             fields:
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Descriptor", name: "descriptor", widget: "string"}
-              - {label: "Timeline", name: "timeline", widget: "string"}
-              - label: "Info Items"
-                name: "infoItems"
-                widget: "list"
-                field: {label: "Info", name: "info", widget: "text"}
-      - label: "Skills Page"
-        name: "skills"
-        file: "src/content/pages/skills.md"
-        fields: 
-          - {label: "Name", name: "name", widget: "string"}
-          - {label: "Skills Info", name: "skillsInfo", widget: "markdown"}
-          - label: "skills"
-            name: "Skills"
-            widget: "list"
-            fields: 
-              - {label: "Skill Name", name: "skillName", widget: "string"}
-              - {label: "Skill Icon Name", name: "skillIconName", widget: "string"}
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: 'Descriptor', name: 'descriptor', widget: 'string' }
+              - { label: 'Location', name: 'location', widget: 'string' }
+              - { label: 'Start', name: 'start', widget: 'string' }
+              - { label: 'End', name: 'end', widget: 'string' }
+              - label: 'Info Items'
+                name: 'infoItems'
+                widget: 'list'
+                field: { label: 'Info', name: 'info', widget: 'text' }
+      - label: 'Skills Page'
+        name: 'skills'
+        file: 'src/content/pages/skills.md'
+        fields:
+          - { label: 'Name', name: 'name', widget: 'string' }
+          - { label: 'Skills Info', name: 'skillsInfo', widget: 'markdown' }
+          - label: 'skills'
+            name: 'Skills'
+            widget: 'list'
+            fields:
+              - { label: 'Skill Name', name: 'skillName', widget: 'string' }
+              - {
+                  label: 'Skill Icon Name',
+                  name: 'skillIconName',
+                  widget: 'string',
+                }

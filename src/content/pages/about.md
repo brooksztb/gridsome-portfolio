@@ -21,13 +21,25 @@ description: >-
   weekly podcast about pop culture which you can read more about
   [here](https://z2podcast.com).
 history:
-  - descriptor: >-
-      Studied Software Engineering (Major) and History (Minor) and Graduated
-      with a Bachelor of Science in Software Engineering
+  - descriptor: Software Developer II
     infoItems:
-      - Recipient of University of Northern Colorado Bear Track Scholarship
-    timeline: August 2011 - May 2015
-    title: University of Northern Colorado
+      - >-
+        Worked and maintained a multibillion-dollar customer facing website that
+        booked customer airline tickets
+      - Worked with a team of developers to fix production issues
+      - >-
+        Worked with business teams to develop new features into the website as
+        well as implement third party tools
+      - >-
+        Pair Programmed with teammates to solve problems and develop new
+        features, as well as pear review code
+      - >-
+        Developed customer facing tools such as a new Loyalty Profile, Bundles
+        Ancillary
+    start: February 2016
+    end: Present
+    title: Frontier Airlines
+    location: Denver, Colorado
   - descriptor: Business System Analyst
     infoItems:
       - >-
@@ -35,29 +47,22 @@ history:
         efficiency
       - >-
         Creating and maintaining desktop applications for company departments.
-        I.E. Loan Boarding Tool 
+        I.E. Loan Boarding Tool
       - >-
         Working and Maintaining company Commissions Portal and Accounts Payable
-        Processing websites 
-      - 'Working with SQL Databases  '
-    timeline: July 2015 - February 2016
-    title: 'Lenderlive Network Inc. '
-  - descriptor: Software Developer II
+        Processing websites
+      - Working with SQL Databases
+    start: July 2015
+    end: February 2016
+    title: Lenderlive Network Inc.
+    location: Glendale, Colorado
+  - descriptor: >-
+      Studied Software Engineering (Major) and History (Minor) and Graduated
+      with a Bachelor of Science in Software Engineering
     infoItems:
-      - >-
-        Worked and maintained a multibillion-dollar customer facing website that
-        booked customer airline tickets
-      - 'Worked with a team of developers to fix production issues '
-      - >-
-        Worked with business teams to develop new features into the website as
-        well as implement third party tools
-      - >-
-        Pair Programmed with teammates to solve problems and develop new
-        features, as well as pear review code 
-      - >-
-        Developed customer facing tools such as a new Loyalty Profile, Bundles
-        Ancillary
-    timeline: February 2016 - Present
-    title: Frontier Airlines
+      - Recipient of University of Northern Colorado Bear Track Scholarship
+    start: August 2011
+    end: May 2015
+    title: University of Northern Colorado
+    location: Greeley, Colorado
 ---
-
