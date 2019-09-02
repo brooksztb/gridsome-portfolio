@@ -48,12 +48,12 @@
           <span>Work</span>
         </g-link>
       </div>
-      <div class="flex items-center justify-between mx-auto py-10 px-6 w-full">
+      <div class="flex items-center justify-around mx-auto py-10 px-6 w-full">
         <a
           href="https://twitter.com/zacann0n"
           target="_blank"
           title="Twitter Profile"
-          class="hover:text-logo-gray text-white mx-2"
+          class="text-white mx-2"
         >
           <font-awesome :icon="['fab', 'twitter']" size="lg" />
         </a>
@@ -61,7 +61,7 @@
           href="https://www.linkedin.com/in/zachary-brooks-3b8b5b84/"
           target="_blank"
           title="Linkedin Profile"
-          class="hover:text-logo-gray text-white mx-2"
+          class="text-white mx-2"
         >
           <font-awesome :icon="['fab', 'linkedin']" size="lg" />
         </a>
@@ -69,7 +69,7 @@
           href="https://github.com/brooksztb"
           target="_blank"
           title="Github Profile"
-          class="hover:text-logo-gray text-white mx-2"
+          class="text-white mx-2"
         >
           <font-awesome :icon="['fab', 'github']" size="lg" />
         </a>
