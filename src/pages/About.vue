@@ -1,6 +1,25 @@
 <template>
   <Layout>
-    <time-line :data="$page.contentPage.history"></time-line>
+    <div class="flex-wrap">
+      <div class="max-w-sm lg:w-4/5 lg:max-w-full lg:flex">
+        <img
+          class="w-full h-full rounded mr-4"
+          src="/images/uploads/file_000.jpeg"
+          alt="Avatar of Zach Brooks"
+        />
+        <div
+          class="border rounded border-white-400 p-4 flex flex-col justify-between leading-normal"
+        >
+          <div class="mb-2">
+            <div class="text-white font-bold text-xl mb-2">
+              {{ $page.contentPage.title }}
+            </div>
+            <p class="text-white">{{ $page.contentPage.description }}</p>
+          </div>
+        </div>
+      </div>
+      <time-line :data="$page.contentPage.history"></time-line>
+    </div>
   </Layout>
 </template>
 

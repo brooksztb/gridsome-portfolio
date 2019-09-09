@@ -6,9 +6,10 @@ import DefaultLayout from "~/layouts/Default.vue";
 
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
-// import "@mdi/font/css/materialdesignicons.css";
+
 import {
   faGithub,
+  faGitlab,
   faTwitter,
   faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
@@ -21,6 +22,7 @@ import {
 
 library.add(
   faGithub,
+  faGitlab,
   faTwitter,
   faLinkedin,
   faHome,
