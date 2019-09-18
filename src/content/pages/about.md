@@ -18,8 +18,8 @@ description: >-
   to listen to a variety of music from K-Pop to Metalcore, Jazz to Chiptune, I
   like to think it's quite eclectic. My love of music has also inspired me to
   start creating Beat Saber maps for some of my favorite tracks! I also run a
-  weekly podcast about pop culture which you can read more about at here
-  (https://z2podcast.com).
+  weekly podcast about pop culture which you can read more about at
+  [here](https://z2podcast.com).
 history:
   - descriptor: Software Developer II
     end: Present
