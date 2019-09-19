@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div>
-      <div class="title-container">
+      <div class="title-container flex flex-1">
         <h1 class="title-animated">Full Stack Developer, Front End Passion</h1>
       </div>
     </div>

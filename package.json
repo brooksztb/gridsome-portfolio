@@ -15,13 +15,13 @@
     "@gridsome/transformer-remark": "^0.2.1",
     "gridsome": "^0.6.9",
     "gridsome-plugin-remark-youtube": "^1.0.1",
+    "tailwindcss": "^1.1.2",
     "vue-mq": "^1.0.1",
     "webpack-node-externals": "^1.7.2"
   },
   "devDependencies": {
     "@mdi/font": "^3.8.95",
     "css-loader": "^2.1.1",
-    "gridsome-plugin-tailwindcss": "^2.2.22",
     "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",

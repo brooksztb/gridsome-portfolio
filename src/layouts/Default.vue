@@ -1,13 +1,16 @@
 <template>
   <div id="portfolio" class="font-body">
-    <nav class="flex">
-      <!--Menu icon-->
-    </nav>
-    <div class="fixed top-0 flex flex-col items-center justify-between w-l h-screen nav-bar">
-      <div class="flex flex-col flex-wrap mx-auto items-center justify-center w-full px-8">
-        <g-image class="logo" src="/images/uploads/logo.svg" alt />
+    <div
+      class="fixed top-0 flex flex-col items-center justify-between h-screen nav-bar w-10 sm:w-15 md:w-20 lg:w-xl"
+    >
+      <div class="flex flex-col items-center justify-start mx-auto w-full px-6 md:px-8 md:h-full">
+        <g-image
+          class="flex md:inline-flex w-full h-6 sm:h-8 md:h-16 lg:h-logo p-2 lg:pb-5"
+          src="/images/uploads/logo.svg"
+          alt
+        />
         <g-link
-          class="hover:bg-white hover:text-logo-gray text-white font-bold py-2 px-6 rounded inline-flex items-center justify-center w-full"
+          class="flex md:inline-flex items-center justify-center hover:bg-white hover:text-logo-gray text-white font-bold my-1 py-2 lg:px-6 rounded w-full"
           to="/"
           active-class="border border-white"
           exact
@@ -16,7 +19,7 @@
           <span>Home</span>
         </g-link>
         <g-link
-          class="hover:bg-white hover:text-logo-gray text-white font-bold py-2 px-6 rounded inline-flex items-center justify-center w-full"
+          class="flex md:inline-flex items-center justify-center hover:bg-white hover:text-logo-gray text-white font-bold my-1 py-2 lg:px-6 rounded w-full"
           to="/about"
           active-class="border border-white"
         >
@@ -24,7 +27,7 @@
           <span>About</span>
         </g-link>
         <g-link
-          class="hover:bg-white hover:text-logo-gray text-white font-bold py-2 px-6 rounded inline-flex items-center justify-center w-full"
+          class="flex md:inline-flex items-center justify-center hover:bg-white hover:text-logo-gray text-white font-bold my-1 py-2 lg:px-6 rounded w-full"
           to="/skills"
           active-class="border border-white"
         >
@@ -32,7 +35,7 @@
           <span>Skillset</span>
         </g-link>
         <g-link
-          class="hover:bg-white hover:text-logo-gray text-white font-bold py-2 px-6 rounded inline-flex items-center justify-center w-full"
+          class="flex md:inline-flex items-center justify-center hover:bg-white hover:text-logo-gray text-white font-bold my-1 py-2 lg:px-6 rounded w-full"
           to="/work"
           active-class="border border-white"
         >
@@ -40,7 +43,9 @@
           <span>Work</span>
         </g-link>
       </div>
-      <div class="flex items-center justify-around mx-auto py-10 px-6 w-full">
+      <div
+        class="flex flex-col items-center md:flex-row justify-around md:mx-auto py-3 md:py-10 px-6 md:px-8 w-full"
+      >
         <a
           href="https://twitter.com/zacann0n"
           target="_blank"
@@ -75,7 +80,9 @@
         </a>
       </div>
     </div>
-    <div class="flex flex-1 items-center pl-xl py-5 h-full mx-auto bg-content-bg text-white">
+    <div
+      class="flex flex-1 items-center pl-12 pr-2 lg:pl-xl lg:pr-5 py-5 h-full min-h-screen mx-auto bg-content-bg text-white"
+    >
       <slot></slot>
     </div>
   </div>
@@ -91,27 +98,15 @@ query {
 
 <script>
 export default {
-  name: "App",
-  data() {
-    return {
-      drawer: true
-    };
-  }
+  name: "App"
 };
 </script>
 
 <style lang="scss" scoped>
 .nav-bar {
-  width: 300px;
   background: -webkit-linear-gradient(121deg, #292f35 50%, #84161b 50%);
   background: -o-linear-gradient(121deg, #292f35 50%, #84161b 50%);
   background: -moz-linear-gradient(121deg, #292f35 50%, #84161b 50%);
   background: linear-gradient(121deg, #292f35 50%, #84161b 50%);
-}
-
-.logo {
-  width: 100%;
-  height: 220px;
-  padding: 20px;
 }
 </style>
