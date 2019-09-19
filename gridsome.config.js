@@ -3,6 +3,7 @@
 
 // Changes here requires a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
+const tailwindcss = require("tailwindcss");
 
 module.exports = {
   siteName: "Zachary Brooks: Full Stack Developer",
@@ -14,18 +15,14 @@ module.exports = {
       externalLinksRel: ["nofollow", "noopener", "noreferrer"]
     }
   },
-  plugins: [
-    {
-      use: "gridsome-plugin-tailwindcss",
-      options: {
-        tailwindConfig: "tailwind.config.js",
-        purgeConfig: {},
-        presetEnvConfig: {},
-        shouldPurge: true,
-        shouldImport: true,
-        shouldTimeTravel: true
+  css: {
+    loaderOptions: {
+      postcss: {
+        plugins: [tailwindcss]
       }
-    },
+    }
+  },
+  plugins: [
     {
       use: "@gridsome/source-filesystem",
       options: {
