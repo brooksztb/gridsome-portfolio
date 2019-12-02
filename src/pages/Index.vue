@@ -4,6 +4,7 @@
       <div class="title-container flex flex-1">
         <h1 class="title-animated">Full Stack Developer, Front End Passion</h1>
       </div>
+      <h2>Site is a work in progress</h2>
     </div>
   </Layout>
 </template>
