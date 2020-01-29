@@ -11,6 +11,12 @@ sections:
   label: Pages
   create: documents
   match: "*"
+- type: heading
+  label: Data
+- type: document
+  path: src/content/data/authors.json
+  label: Authors
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
