@@ -7,10 +7,10 @@ sections:
 - type: heading
   label: Content
 - type: directory
-  path: ''
+  path: src/content/pages
   label: Pages
   create: documents
-  match: "**/pages/*"
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
