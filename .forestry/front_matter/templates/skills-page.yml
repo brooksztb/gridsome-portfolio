@@ -34,3 +34,5 @@ fields:
     max: 
     labelField: 
   label: Skills
+pages:
+- src/content/pages/skills.md
