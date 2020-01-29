@@ -11,6 +11,10 @@ sections:
   label: Pages
   create: documents
   match: "*"
+  templates:
+  - home-page
+  - about-page
+  - skills-page
 - type: document
   path: src/content/data/authors.json
   label: Authors
