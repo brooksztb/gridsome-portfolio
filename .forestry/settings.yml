@@ -8,14 +8,9 @@ sections:
   label: Content
 - type: directory
   path: ''
-  label: Posts
-  create: documents
-  match: "**/*"
-- type: directory
-  path: ''
   label: Pages
   create: all
-  match: "**/*"
+  match: "**/pages/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
