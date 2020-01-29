@@ -64,11 +64,12 @@ fields:
     label: End Date
     description: ''
     config:
-      required: true
+      required: false
       date_format: MMM YYYY
       time_format: 
       display_utc: false
       export_format: MMM YYYY
+    default: now
   - name: history_info
     type: field_group_list
     fields:
