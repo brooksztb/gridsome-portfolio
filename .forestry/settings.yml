@@ -11,11 +11,11 @@ sections:
   label: Pages
   create: documents
   match: "*"
-- type: heading
-  label: Data
 - type: document
   path: src/content/data/authors.json
   label: Authors
+- type: heading
+  label: Site Config
 - type: document
   path: src/content/data/config.json
   label: Configuration
