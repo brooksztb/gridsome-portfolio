@@ -1,4 +1,93 @@
 ---
 label: About Page
 hide_body: false
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+  description: Page Name
+- name: intro
+  type: text
+  config:
+    required: false
+  label: Intro
+- name: photo
+  type: file
+  config:
+    maxSize: 250
+  label: Photo
+- name: personal_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Personal Description
+- name: personal_history
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: history_description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: History Description
+  - name: location
+    type: text
+    config:
+      required: false
+    label: Location
+  - name: start_date
+    type: datetime
+    label: Start Date
+    description: ''
+    config:
+      required: true
+      date_format: MMM YYYY
+      time_format: 
+      display_utc: false
+      export_format: MMM YYYY
+  - name: end_date
+    type: datetime
+    label: End Date
+    description: ''
+    config:
+      required: true
+      date_format: MMM YYYY
+      time_format: 
+      display_utc: false
+      export_format: MMM YYYY
+  - name: history_info
+    type: field_group_list
+    fields:
+    - name: description
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: markdown
+      label: Description
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: History Info
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Personal History
