@@ -35,15 +35,11 @@ fields:
     config:
       required: false
     label: Title
-  - name: history_description
-    type: textarea
-    default: ''
+  - name: work_title
+    type: text
     config:
       required: false
-      wysiwyg: true
-      schema:
-        format: markdown
-    label: History Description
+    label: History Title
   - name: location
     type: text
     config:
