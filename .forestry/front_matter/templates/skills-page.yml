@@ -1,4 +1,36 @@
 ---
 label: Skills Page
 hide_body: false
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Description
+- name: skills
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: icon_name
+    type: text
+    config:
+      required: false
+    label: Icon Name
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Skills
