@@ -9,8 +9,8 @@ sections:
 - type: directory
   path: ''
   label: Pages
-  create: all
-  match: src/content/pages/*
+  create: documents
+  match: "**/pages/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
