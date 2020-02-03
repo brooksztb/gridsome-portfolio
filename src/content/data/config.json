@@ -1,13 +1,13 @@
 {
-  "title": "Brooksztb-folio",
-  "description": "Personal portfolio and blog of Zach Brooks built with Forestry and Gridsome.",
-  "contact": {
-    "email": "brooksztb@gmail.com",
-    "linkedin_handle": "zachary-brooks-3b8b5b84",
-    "twitter_handle": "zacann0n",
-    "github_handle": "brooksztb",
-    "gitlab_handle": "brooksztb"
-  },
-  "primary_color": "#84161b",
-  "repository_url": "https://github.com/brooksztb/gridsome-portfolio"
+	"title": "Zachary Brooks: Front end Developer",
+	"description": "Personal portfolio and blog of Zachary Brooks built with Forestry and Gridsome.",
+	"contact": {
+		"email": "brooksztb@gmail.com",
+		"linkedin_handle": "zachary-brooks-3b8b5b84",
+		"twitter_handle": "zacann0n",
+		"github_handle": "brooksztb",
+		"gitlab_handle": "brooksztb"
+	},
+	"primary_color": "#84161b",
+	"repository_url": "https://github.com/brooksztb/gridsome-portfolio"
 }
