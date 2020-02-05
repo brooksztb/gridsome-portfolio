@@ -4,14 +4,16 @@
 			class="fixed top-0 flex flex-col items-center justify-between h-screen nav-bar w-10 sm:w-15 md:w-20 lg:w-xl"
 		>
 			<div
-				class="flex flex-col items-center justify-start mx-auto w-full px-6 md:px-8 md:h-full"
+				class="flex flex-col items-center justify-start mx-auto w-full pt-3 md:pt-9 px-6 md:px-8 md:h-full"
 			>
-				<g-image
-					class="flex md:inline-flex w-full h-6 sm:h-8 md:h-16 lg:h-logo p-2 lg:pb-5"
-					src="/uploads/logo.svg"
-					alt
-					to="/"
-				/>
+				<g-link to="/">
+					<g-image
+						class="flex md:inline-flex w-full h-6 sm:h-8 md:h-16 lg:h-logo p-2 lg:pb-5"
+						src="/uploads/logo.svg"
+						alt="zachary brooks logo"
+					/>
+				</g-link>
+
 				<g-link
 					class="flex md:inline-flex items-center justify-center hover:bg-white hover:text-logo-gray text-white font-bold my-1 py-2 lg:px-6 rounded w-full"
 					to="/about"
