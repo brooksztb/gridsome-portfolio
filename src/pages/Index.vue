@@ -1,12 +1,12 @@
 <template>
-	<Layout>
+	<layout>
 		<div>
 			<div class="title-container flex flex-1">
 				<h1 class="title-animated">Front end Developer, looking to JAM!</h1>
 			</div>
 			<h2>Site is a work in progress</h2>
 		</div>
-	</Layout>
+	</layout>
 </template>
 
 <script>

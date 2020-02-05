@@ -1,5 +1,5 @@
 <template>
-	<Layout>
+	<layout>
 		<div class="flex-wrap">
 			<div class="max-w-sm lg:w-4/5 lg:max-w-full lg:flex">
 				<img
@@ -20,12 +20,12 @@
 			</div>
 			<time-line :data="$page.content.personal_history"></time-line>
 		</div>
-	</Layout>
+	</layout>
 </template>
 
 <page-query>
-query getAboutPageData($path: String!) {
-  content(path: $path) {
+query getAboutPageData {
+  content(path: "/about") {
     title,
     intro,
     photo,
