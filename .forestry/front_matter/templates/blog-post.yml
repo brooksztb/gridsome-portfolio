@@ -36,3 +36,13 @@ fields:
   config:
     maxSize: 250
   label: Hero Image
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Content
+  description: 'Content of the blog post '
