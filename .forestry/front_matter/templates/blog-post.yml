@@ -20,6 +20,7 @@ fields:
       file: 
       path: 
   label: Author
+  description: Choose author, to add a new author go to the Authors List file
 - name: date
   type: datetime
   label: Date
