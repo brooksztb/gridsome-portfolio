@@ -46,3 +46,5 @@ fields:
       format: markdown
   label: Content
   description: 'Content of the blog post '
+pages:
+- src/content/blog/jamstack-denver-audio-and-video-setup-how-we-record-and-stream-our-meetup.md
