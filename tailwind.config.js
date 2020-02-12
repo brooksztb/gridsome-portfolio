@@ -20,17 +20,35 @@ module.exports = {
         "content-bg": "#222831"
       },
       spacing: {
-        l: "300px",
-        xl: "320px"
+        px10: "10px",
+        px300: "300px",
+        px320: "320px",
+        px340: "340px",
+        px900: "900px"
       },
-      width: {
-        xl: "300px"
+      opacity: {
+        inherit: "inherit",
+        "80": ".80"
       },
       height: {
-        logo: "220px"
+        logo: "220px",
+        "screen-1/3": "33vh"
+      },
+      width: {
+        auto: "auto"
+      },
+      minHeight: {
+        "38": "38vh",
+        px250: "250px"
+      },
+      minWidth: {
+        "70": "70%"
       }
     }
   },
-  variants: {},
+  variants: {
+    backgroundColor: ["responsive", "hover", "focus", "active"],
+    transitionProperty: ["responsive", "hover", "focus"]
+  },
   plugins: []
 };
