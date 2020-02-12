@@ -15,10 +15,10 @@ fields:
     required: false
     options: []
     source:
-      type: pages
+      type: documents
       section: authors
-      file: 
-      path: 
+      file: src/content/data/authors.json
+      path: authors
   label: Author
   description: Choose author, to add a new author go to the Authors List file
 - name: date
