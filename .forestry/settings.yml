@@ -31,9 +31,9 @@ sections:
   path: src/content/data/config.json
   label: Configuration
 upload_dir: ''
-public_path: ''
+public_path: https://res.cloudinary.com/zacharybrooks-io/image/upload
 front_matter_path: ''
-use_front_matter_path: false
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   preview_output_directory: dist
