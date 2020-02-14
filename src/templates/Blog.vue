@@ -51,7 +51,7 @@ export default {
   },
   methods: {
     imageUrl(base) {
-      return `${this.$static.metadata.cloudinary_url}/w_1000,q_80/${base}`;
+      return `${this.$static.metadata.cloudinaryUrl}/w_1000,q_80/${base}`;
     },
     isNull(item) {
       return item == null || item == undefined;
@@ -82,14 +82,12 @@ query getPostData ($path: String!) {
     }
 }
 </page-query>
-
 <static-query>
 query {
     metadata {
         cloudinaryUrl
     }
 }
-
 </static-query>
 <style lang="scss" >
 .blog {

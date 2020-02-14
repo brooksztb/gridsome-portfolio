@@ -13,7 +13,7 @@
           <div class="w-full md:h-full h-screen-1/3 overflow-hidden bg-white">
             <g-image
               class="object-cover opacity-100 md:h-full min-h-full md:min-h-0 md:min-w-full md:w-auto transition-opacity duration-300 ease-in-out hover:opacity-80"
-              :src="post.node.hero_image"
+              :src="imageUrl(post.node.hero_image)"
               :alt="post.node.title"
               width="300"
               height="300"
@@ -40,6 +40,14 @@
   </section>
 </template>
 
+<static-query>
+query {
+    metadata {
+        cloudinaryUrl
+    }
+}
+</static-query>
+
 <script>
 export default {
   props: {
@@ -57,6 +65,9 @@ export default {
       return blurb.indexOf("</p>") !== -1
         ? blurb.slice(0, blurb.indexOf("</p>")).trim() + "..."
         : blurb + "...";
+    },
+    imageUrl(base) {
+      return `${this.$static.metadata.cloudinaryUrl}/w_1000,q_75/${base}`;
     }
   }
 };
