@@ -10,7 +10,8 @@ module.exports = {
   siteName: config.title,
   metadata: {
     siteName: config.title,
-    siteDescription: config.description
+    siteDescription: config.description,
+    cloudinaryUrl: config.cloudinary_url
   },
   siteUrl: 'https://zacharybrooks.io',
   titleTemplate: `%s | ${config.title}`,
@@ -35,7 +36,11 @@ module.exports = {
         typeName: 'Blog',
         baseDir: './src/content/',
         path: 'blog/**/*.md',
-        resolveAbsolutePaths: true
+        resolveAbsolutePaths: true,
+        remark: {
+          externalLinksTarget: '_blank',
+          externalLinksRel: ['nofollow', 'noopener', 'noreferrer']
+        }
       }
     },
     {

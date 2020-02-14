@@ -9,5 +9,6 @@
     "gitlab_handle": "brooksztb"
   },
   "primary_color": "#84161b",
-  "repository_url": "https://github.com/brooksztb/gridsome-portfolio"
+  "repository_url": "https://github.com/brooksztb/gridsome-portfolio",
+  "cloudinary_url": "https://res.cloudinary.com/zacharybrooks-io/image/upload"
 }
