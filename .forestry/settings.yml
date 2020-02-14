@@ -2,47 +2,43 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: ''
-webhook_url:
+webhook_url: 
 sections:
-  - type: heading
-    label: Content
-  - type: directory
-    path: src/content/pages
-    label: Pages
-    create: documents
-    match: '*'
-    templates:
-      - home-page
-      - about-page
-      - skills-page
-  - type: directory
-    path: src/content/blog
-    label: Blog Posts
-    create: documents
-    match: '**/*'
-    templates:
-      - blog-post
-  - type: document
-    path: src/content/data/authors.json
-    label: Authors
-  - type: heading
-    label: Site Config
-  - type: document
-    path: src/content/data/config.json
-    label: Configuration
+- type: heading
+  label: Content
+- type: directory
+  path: src/content/pages
+  label: Pages
+  create: documents
+  match: "*"
+  templates:
+  - home-page
+  - about-page
+  - skills-page
+- type: directory
+  path: src/content/blog
+  label: Blog Posts
+  create: documents
+  match: "**/*"
+  templates:
+  - blog-post
+- type: document
+  path: src/content/data/authors.json
+  label: Authors
+- type: heading
+  label: Site Config
+- type: document
+  path: src/content/data/config.json
+  label: Configuration
 upload_dir: static/uploads
-public_path: '/uploads'
+public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false
-file_template: ':filename:'
-instant_preview: true
+file_template: ":filename:"
 build:
-  preview_command: gridsome build
-  publish_command: gridsome build
   preview_output_directory: dist
-  output_directory: dist
   install_dependencies_command: npm install
   preview_docker_image: node:10
-  mount_path: '/srv'
-  working_dir: '/srv'
+  mount_path: "/srv"
+  working_dir: "/srv"
   instant_preview_command: npm run forestry-preview
