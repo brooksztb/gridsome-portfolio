@@ -4,7 +4,7 @@
 			<div class="max-w-sm lg:w-4/5 lg:max-w-full lg:flex">
 				<img
 					class="w-full h-full rounded mr-4"
-					:src="$page.content.photo"
+					:src="`${$page.metadata.cloudinaryUrl}${$page.content.photo}`"
 					alt="Avatar of Zach Brooks"
 				/>
 				<div
@@ -25,6 +25,9 @@
 
 <page-query>
 query getAboutPageData {
+	metadata {
+		cloudinaryUrl
+	}
   content(path: "/about") {
     title,
     intro,
