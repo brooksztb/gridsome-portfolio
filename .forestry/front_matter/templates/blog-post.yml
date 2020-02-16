@@ -38,4 +38,3 @@ fields:
   label: Hero Image
 pages:
 - src/content/blog/jamstack-denver-av-setup.md
-- src/content/blog/test.md
