@@ -14,8 +14,8 @@ module.exports = {
     cloudinaryUrl: config.cloudinary_url
   },
   siteUrl: 'https://zacharybrooks.io',
-  titleTemplate: `%s | ${config.title}`,
-  icon: 'src/static/favicon.ico',
+  titleTemplate: `%s - ${config.title}`,
+  icon: '/src/static/favicon.ico',
   transformers: {
     remark: {
       externalLinksTarget: '_blank',
