@@ -4,12 +4,13 @@ date: 2020-02-12T22:13:14.000+00:00
 title: JAMStack Denver Audio and Video Setup - How we record and stream our Meetup
 author: Zach Brooks
 hero_image: '/v1581716903/avsetup_qeazq9.jpg'
-
 ---I am a co-organizer of the Jamstack Denver meetup and also the A/V guru for streaming and recording all of the talks at our meetup. After our February 2020 meetup, we got a lot of other groups and people interested in how we have things setup for recording and live streaming everything. So I thought it would be best to explain everything in a post here for others interested in recording/streaming their own meetups.
 
 I will be breaking everything down in the following sections:
 
--**Hardware** -**Software** -**Stream/Recording Settings**
+- **Hardware**
+- **Software**
+- **Stream/Recording Settings**
 
 **Hardware**
 
@@ -34,7 +35,7 @@ I'll start with the hardware I use for my setup, the reasoning for why I use wha
 - [UGREEN Micro HDMI to HDMI Cable Adapter 4K 3 ft](https://www.amazon.com/gp/product/B06WWQ7KLV/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1)
 
 Here's a diagram of how I have everything connected as well:
-//Diagram of setup
+![Setup Diagram](https://dev-to-uploads.s3.amazonaws.com/i/76jkxo9wu52u6gbokkiz.png)
 
 At first glance this is quite a bit of hardware. Some of it is also a bit overkill for creating a simple live stream and recording but you'd be surprised at some of the hardware requirements for streaming and recording.
 
@@ -44,7 +45,7 @@ The Fujifilm XT-3 is a mirrorless camera, which I use for photography as well an
 
 You will need something like the Elgato Cam Link if you decide to use a mirrorless or DSLR camera which allows you to capture the cameras hdmi output. The Magewell Capture card is what's needed to capture a presenters screen and display it out to your live audience. You'll need a capture card with loop through capability, as this is what allows you to display out to an external screen and capture the input for streaming/recording at the same time. This is one part that I wouldn't go cheap on, because I've used cheaper capture cards in the past and they aren't nearly as reliable. You'll also want to make sure the capture card is compatible with your computer, since some Elgato devices don't have supported drivers on Mac, so just be aware of that.
 
-Then we get into audio hardwaee, which I would argue is more important that video, so if you're on a tight budget I'd spend a bit more on better audio, since you want the speaker and content to sound nice and clear. I just started using a Shure wireless microphone system with a lavalier mic for the presenter and a handheld mic for our MC and for the audience to ask questions, and it really improved our overall quality. Wireless mics aren't necessary to get started but they can make things feel a bit more professional. I run the wireless mic system into a Behringer Xenyx 1204USB Mixer so I can manually monitor and adjust audio based on the speaker, and the usb output is routed into my computer to capture the audio. I also have cables from the mixers main output channel routed to venue speakers so the audience can hear the mic'd up presenter.
+Then we get into audio hardware, which I would argue is more important that video, so if you're on a tight budget I'd spend a bit more on better audio, since you want the speaker and content to sound nice and clear. I just started using a Shure wireless microphone system with a lavalier mic for the presenter and a handheld mic for our MC and for the audience to ask questions, and it really improved our overall quality. Wireless mics aren't necessary to get started but they can make things feel a bit more professional. I run the wireless mic system into a Behringer Xenyx 1204USB Mixer so I can manually monitor and adjust audio based on the speaker, and the usb output is routed into my computer to capture the audio. I also have cables from the mixers main output channel routed to venue speakers so the audience can hear the mic'd up presenter.
 
 Finally, I have an Elgato Stream Deck mini to control things in OBS, which i'll get into later, but this is just an extra I like to have so I don't have to jump between OBS scenes with my mouse. With all of that said, this is what I would recommend for an ideal setup to get yourself started with a couple of high end options thrown in as well.
 
@@ -116,40 +117,42 @@ The last part I want to go over is the stream and recording settings I use for O
 **Output**
 
 - Output Mode: Advanced
-  **Streaming Tab**
-  - Audio Track: 1
-  - Encoder: x264,
-  - Enforce streaming service encoder settings: Checked
-  - Rescale Output: Unchecked
-  - Rate Control: CBR
-  - Bitrate: 3800 kbps
-  - Use Custom Buffer Size: Unchecked
-  - Keyframe Interval: 2
-  - CPU Usage Preset: Fast
-  - Profile: Main
-  - Tune: none
-  - x264 options: Left Blank
-    **Recording Tab**
-  - Type: Standard
-  - Recording Path: Wherever you want your recordings to go
-  - Generate File Name without Space: Checked
-  - Recording Format: mkv
-  - Audio Track: Only 2 Checked
-  - Encoder: Apple VT H264 Hardware Encoder, you can use the same encoder as your stream settings if you like
-  - Rescale Output: Unchecked
-  - Customer Muxer Settings: Left Blank
-  - Bitrate: 15000 kbps, bitrate based on your encoder capability for recording
-  - Limit Bitrate: Unchecked
-  - Keyframe Interval: 2
-  - Profile: high
-  - User B-Frames: Checked
-    **Audio Tab**
-  - Track 1
-    - Audio Bitrate: 160
-    - Name: Twitch Downstream
-  - Track 2 - Audio Bitrate: 320 - Name: Recording Downstream
-    **Replay Buffer Tab**
-  - Enable Replay Buffer: Unchecked
+  - **Streaming Tab**
+    - Audio Track: 1
+    - Encoder: x264,
+    - Enforce streaming service encoder settings: Checked
+    - Rescale Output: Unchecked
+    - Rate Control: CBR
+    - Bitrate: 3800 kbps
+    - Use Custom Buffer Size: Unchecked
+    - Keyframe Interval: 2
+    - CPU Usage Preset: Fast
+    - Profile: Main
+    - Tune: none
+    - x264 options: Left Blank
+  - **Recording Tab**
+    - Type: Standard
+    - Recording Path: Wherever you want your recordings to go
+    - Generate File Name without Space: Checked
+    - Recording Format: mkv
+    - Audio Track: Only 2 Checked
+    - Encoder: Apple VT H264 Hardware Encoder, you can use the same encoder as your stream settings if you like
+    - Rescale Output: Unchecked
+    - Customer Muxer Settings: Left Blank
+    - Bitrate: 15000 kbps, bitrate based on your encoder capability for recording
+    - Limit Bitrate: Unchecked
+    - Keyframe Interval: 2
+    - Profile: high
+    - User B-Frames: Checked
+  - **Audio Tab**
+    - Track 1
+      - Audio Bitrate: 160
+      - Name: Twitch Downstream
+    - Track 2
+      - Audio Bitrate: 320
+      - Name: Recording Downstream
+  - **Replay Buffer Tab**
+    - Enable Replay Buffer: Unchecked
 
 A couple things I want to point out. If you are streaming for the first time, I would aim to have an output resolution of 720p 60fps to start with, since you only need about 5mbps upload for a super consistent stream at a fast CPU usage preset. Once you gauge your bandwidth limit at the place you're recording then you can look to increasing the quality or usage preset. You want your viewers to have a good viewing experience though so 720p60 is more than sufficient for getting started. I upped my resolution to 1080p30 recently to gain the benefits of my recording camera, and found that I had the bandwidth available to record at with those settings and still have a stable stream. Also be sure to set your canvas to a scaled resolution that matches the layout you want to use. If you plan on having a 16:9 layout, then use a 1920x1080 canvas or similar and scale your output resolution appropriately.
 
