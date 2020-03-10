@@ -49,23 +49,21 @@ Then we get into audio hardware, which I would argue is more important that vide
 
 Finally, I have an Elgato Stream Deck mini to control things in OBS, which i'll get into later, but this is just an extra I like to have so I don't have to jump between OBS scenes with my mouse. With all of that said, this is what I would recommend for an ideal setup to get yourself started with a couple of high end options thrown in as well.
 
-**Recommended Setup**  
-\- \[4-6 core CPU Computer Recommended Specs\]([https://pcpartpicker.com/user/Zacann0n/saved/#view=dWQ68d](https://pcpartpicker.com/user/Zacann0n/saved/#view=dWQ68d "https://pcpartpicker.com/user/Zacann0n/saved/#view=dWQ68d"))  
-\- \[High End Camera: Panasonic Lumix G7 w/14-42mm Lens Kit\]([https://www.amazon.com/PANASONIC-Digital-Megapixel-Mirrorless-DMC-G7KK/dp/B00X409PQS/ref=sr_1_3?crid=2PDNE0BCWG7CQ&keywords=panasonic%2Blumix%2Bg7&qid=1581629508&s=electronics&sprefix=panasoni%2Celectronics%2C219&sr=1-3&th=1](https://www.amazon.com/PANASONIC-Digital-Megapixel-Mirrorless-DMC-G7KK/dp/B00X409PQS/ref=sr_1_3?crid=2PDNE0BCWG7CQ&keywords=panasonic%2Blumix%2Bg7&qid=1581629508&s=electronics&sprefix=panasoni%2Celectronics%2C219&sr=1-3&th=1 "https://www.amazon.com/PANASONIC-Digital-Megapixel-Mirrorless-DMC-G7KK/dp/B00X409PQS/ref=sr_1_3?crid=2PDNE0BCWG7CQ&keywords=panasonic%2Blumix%2Bg7&qid=1581629508&s=electronics&sprefix=panasoni%2Celectronics%2C219&sr=1-3&th=1")) or  
-\- \[Budget Camera: Logitech C922x Webcam\]([https://www.amazon.com/Logitech-C922x-Pro-Stream-Webcam/dp/B01LXCDPPK/ref=sr_1_2?keywords=Logitech+C922+Pro&qid=1581629912&s=electronics&sr=1-2](https://www.amazon.com/Logitech-C922x-Pro-Stream-Webcam/dp/B01LXCDPPK/ref=sr_1_2?keywords=Logitech+C922+Pro&qid=1581629912&s=electronics&sr=1-2 "https://www.amazon.com/Logitech-C922x-Pro-Stream-Webcam/dp/B01LXCDPPK/ref=sr_1_2?keywords=Logitech+C922+Pro&qid=1581629912&s=electronics&sr=1-2"))  
-\- Tripod of choice for Camera, doesn't matter to much- \[High End Camera Capture Card: Elgato Cam Link 4K\]([https://www.amazon.com/Elgato-Cam-Link-Broadcast-Camcorder/dp/B07K3FN5MR/ref=sr_1_2?keywords=elgato+cam+link&qid=1581549237&sr=8-2](https://www.amazon.com/Elgato-Cam-Link-Broadcast-Camcorder/dp/B07K3FN5MR/ref=sr_1_2?keywords=elgato+cam+link&qid=1581549237&sr=8-2 "https://www.amazon.com/Elgato-Cam-Link-Broadcast-Camcorder/dp/B07K3FN5MR/ref=sr_1_2?keywords=elgato+cam+link&qid=1581549237&sr=8-2"))  
-\- \[Capture Card: Elgato HD60S\]([https://www.amazon.com/Elgato-Game-Capture-HD60-PlayStation/dp/B01DRWCOGA/ref=sr_1_3?keywords=elgato+hd60s&qid=1581630531&sr=8-3](https://www.amazon.com/Elgato-Game-Capture-HD60-PlayStation/dp/B01DRWCOGA/ref=sr_1_3?keywords=elgato+hd60s&qid=1581630531&sr=8-3 "https://www.amazon.com/Elgato-Game-Capture-HD60-PlayStation/dp/B01DRWCOGA/ref=sr_1_3?keywords=elgato+hd60s&qid=1581630531&sr=8-3"))  
-\- \[Non-Wireless Microphones: Audio Technica ATR2100\]([https://www.amazon.com/Audio-Technica-ATR2100-USB-Cardioid-Dynamic-Microphone/dp/B004QJOZS4/ref=sr_1_5?crid=24B6QEH8EBILE&keywords=audio+technica+dynamic+microphone&qid=1581630659&sprefix=audio+technica+dynamic%2Caps%2C186&sr=8-5](https://www.amazon.com/Audio-Technica-ATR2100-USB-Cardioid-Dynamic-Microphone/dp/B004QJOZS4/ref=sr_1_5?crid=24B6QEH8EBILE&keywords=audio+technica+dynamic+microphone&qid=1581630659&sprefix=audio+technica+dynamic%2Caps%2C186&sr=8-5 "https://www.amazon.com/Audio-Technica-ATR2100-USB-Cardioid-Dynamic-Microphone/dp/B004QJOZS4/ref=sr_1_5?crid=24B6QEH8EBILE&keywords=audio+technica+dynamic+microphone&qid=1581630659&sprefix=audio+technica+dynamic%2Caps%2C186&sr=8-5"))  
-or  
-\- \[Wireless Microphones: innopow Dual Wireless Microphone System\]([https://www.amazon.com/innopow-80-Channel-Microphone-Interference-Continuous/dp/B0749L15PF?tag=musiccritic-search-20](https://www.amazon.com/innopow-80-Channel-Microphone-Interference-Continuous/dp/B0749L15PF?tag=musiccritic-search-20 "https://www.amazon.com/innopow-80-Channel-Microphone-Interference-Continuous/dp/B0749L15PF?tag=musiccritic-search-20"))  
-\- \[2 XLR Input Channel Mixer: Behringer Xenyx Q802USB\]([https://www.amazon.com/Behringer-Q802USB-Premium-8-Input-Interface/dp/B008O517IC/ref=sr_1_4?keywords=usb+audio+mixer&qid=1581634566&sr=8-4](https://www.amazon.com/Behringer-Q802USB-Premium-8-Input-Interface/dp/B008O517IC/ref=sr_1_4?keywords=usb+audio+mixer&qid=1581634566&sr=8-4 "https://www.amazon.com/Behringer-Q802USB-Premium-8-Input-Interface/dp/B008O517IC/ref=sr_1_4?keywords=usb+audio+mixer&qid=1581634566&sr=8-4"))  
-or  
-\- \[4 XLR Input Channel Mixer: Behringer Xenyx X1204USB\]([https://www.amazon.com/Behringer-X1204USB-Premium-12-Input-Interface/dp/B0039PPW60/ref=sr_1_7?keywords=usb+audio+mixer&qid=1581634566&sr=8-7](https://www.amazon.com/Behringer-X1204USB-Premium-12-Input-Interface/dp/B0039PPW60/ref=sr_1_7?keywords=usb+audio+mixer&qid=1581634566&sr=8-7 "https://www.amazon.com/Behringer-X1204USB-Premium-12-Input-Interface/dp/B0039PPW60/ref=sr_1_7?keywords=usb+audio+mixer&qid=1581634566&sr=8-7"))  
-\- \[Headphones for Mixer: Sennheiser HD 559\]([https://www.amazon.com/Sennheiser-HD-559-Open-Headphone/dp/B01L1IIEKM/ref=sr_1_28?crid=1YBC7OT44WEHB&keywords=sennheiser+headphones&qid=1581631453&s=electronics&sprefix=sennheiser%2Celectronics%2C201&sr=1-28](https://www.amazon.com/Sennheiser-HD-559-Open-Headphone/dp/B01L1IIEKM/ref=sr_1_28?crid=1YBC7OT44WEHB&keywords=sennheiser+headphones&qid=1581631453&s=electronics&sprefix=sennheiser%2Celectronics%2C201&sr=1-28 "https://www.amazon.com/Sennheiser-HD-559-Open-Headphone/dp/B01L1IIEKM/ref=sr_1_28?crid=1YBC7OT44WEHB&keywords=sennheiser+headphones&qid=1581631453&s=electronics&sprefix=sennheiser%2Celectronics%2C201&sr=1-28"))  
-\- Appropriate cables for speakers if needed, either 1/4" to 1/4" or XLR Male to XLR Female, depends on your venue setup  
-\- \[Wireless Mics System Input Cables: 2x Hosa XLR Cables\]([https://www.amazon.com/gp/product/B004TVJL1U/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1](https://www.amazon.com/gp/product/B004TVJL1U/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1 "https://www.amazon.com/gp/product/B004TVJL1U/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1"))  
-\- USB Hub of choice, you'll need at least 3 inputs  
-\- Micro HDMI to HDMI Cable if using a DSLR/Mirrorless Camera
+**Recommended Setup**
+
+* [4-6 core CPU Computer Recommended Specs](https://pcpartpicker.com/user/Zacann0n/saved/#view=dWQ68d)
+* [High End Camera: Panasonic Lumix G7 w/14-42mm Lens Kit](https://www.amazon.com/PANASONIC-Digital-Megapixel-Mirrorless-DMC-G7KK/dp/B00X409PQS/ref=sr_1_3?crid=2PDNE0BCWG7CQ&keywords=panasonic%2Blumix%2Bg7&qid=1581629508&s=electronics&sprefix=panasoni%2Celectronics%2C219&sr=1-3&th=1)
+* [Budget Camera: Logitech C922x Webcam](https://www.amazon.com/Logitech-C922x-Pro-Stream-Webcam/dp/B01LXCDPPK/ref=sr_1_2?keywords=Logitech+C922+Pro&qid=1581629912&s=electronics&sr=1-2)
+* Tripod of choice for Camera, doesn't matter to much
+* [High End Camera Capture Card: Elgato Cam Link 4K](https://www.amazon.com/Elgato-Cam-Link-Broadcast-Camcorder/dp/B07K3FN5MR/ref=sr_1_2?keywords=elgato+cam+link&qid=1581549237&sr=8-2)
+* [Capture Card: Elgato HD60S](https://www.amazon.com/Elgato-Game-Capture-HD60-PlayStation/dp/B01DRWCOGA/ref=sr_1_3?keywords=elgato+hd60s&qid=1581630531&sr=8-3)
+* [Non-Wireless Microphones: Audio Technica ATR2100](https://www.amazon.com/Audio-Technica-ATR2100-USB-Cardioid-Dynamic-Microphone/dp/B004QJOZS4/ref=sr_1_5?crid=24B6QEH8EBILE&keywords=audio+technica+dynamic+microphone&qid=1581630659&sprefix=audio+technica+dynamic%2Caps%2C186&sr=8-5) or [Wireless Microphones: innopow Dual Wireless Microphone System](https://www.amazon.com/innopow-80-Channel-Microphone-Interference-Continuous/dp/B0749L15PF?tag=musiccritic-search-20)
+* [2 XLR Input Channel Mixer: Behringer Xenyx Q802USB](https://www.amazon.com/Behringer-Q802USB-Premium-8-Input-Interface/dp/B008O517IC/ref=sr_1_4?keywords=usb+audio+mixer&qid=1581634566&sr=8-4) or [4 XLR Input Channel Mixer: Behringer Xenyx X1204USB](https://www.amazon.com/Behringer-X1204USB-Premium-12-Input-Interface/dp/B0039PPW60/ref=sr_1_7?keywords=usb+audio+mixer&qid=1581634566&sr=8-7)
+* [Headphones for Mixer: Sennheiser HD 559](https://www.amazon.com/Sennheiser-HD-559-Open-Headphone/dp/B01L1IIEKM/ref=sr_1_28?crid=1YBC7OT44WEHB&keywords=sennheiser+headphones&qid=1581631453&s=electronics&sprefix=sennheiser%2Celectronics%2C201&sr=1-28)
+* Appropriate cables for speakers if needed, either 1/4" to 1/4" or XLR Male to XLR Female, depends on your venue setup
+* [Wireless Mics System Input Cables: 2x Hosa XLR Cables](https://www.amazon.com/gp/product/B004TVJL1U/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1)
+* USB Hub of choice, you'll need at least 3 inputs
+* Micro HDMI to HDMI Cable if using a DSLR/Mirrorless Camera
 
 **Software**  
 Now this is where things can get a little tricky, and where a lot of trial and error usually occurs. If you're planning to stream and record, or even capture your own desktop image and audio, Windows based computer make this part a lot easier to setup. You can get the exact same results with Mac OS, but you may have a couple of extra steps and things to know about.
@@ -97,48 +95,45 @@ The last part I want to go over is the stream and recording settings I use for O
 **Audio**  
 \- Sample Rate: 48kHz- Channel: Stereo- Mic/Auxiliary Audio: iShowU Audio Capture (For Desktop sound capturing)- Mic/Auxiliary Audio 2: USB Audio Codec (USB Mixer Audio)
 
-**Output**  
-\- Output Mode: Advanced
+**Output**
 
-\- **Streaming Tab**  
-\- Audio Track: 1  
-\- Encoder: x264  
-\- Enforce streaming service encoder settings: Checked  
-\- Rescale Output: Unchecked  
-\- Rate Control: CBR  
-\- Bitrate: 3800 kbps  
-\- Use Custom Buffer Size: Unchecked  
-\- Keyframe Interval: 2  
-\- CPU Usage Preset: Fast  
-\- Profile: Main  
-\- Tune: none  
-\- x264 options: Left Blank
-
-\- **Recording Tab**  
-\- Type: Standard  
-\- Recording Path: Wherever you want your recordings to go  
-\- Generate File Name without Space: Checked  
-\- Recording Format: mkv  
-\- Audio Track: Only 2 Checked  
-\- Encoder: Apple VT H264 Hardware Encoder, you can use the same encoder as your stream settings if you like  
-\- Rescale Output: Unchecked  
-\- Customer Muxer Settings: Left Blank  
-\- Bitrate: 15000 kbps, bitrate based on your encoder capability for recording  
-\- Limit Bitrate: Unchecked  
-\- Keyframe Interval: 2  
-\- Profile: high  
-\- User B-Frames: Checked
-
-\- **Audio Tab**  
-\- Track 1  
-\- Audio Bitrate: 160  
-\- Name: Twitch Downstream  
-\- Track 2  
-\- Audio Bitrate: 320  
-\- Name: Recording Downstream
-
-\- **Replay Buffer Tab**  
-\- Enable Replay Buffer: Unchecked
+* Output Mode: Advanced
+  * **Streaming Tab**
+    * Audio Track: 1
+    * Encoder: x264
+    * Enforce streaming service encoder settings: Checked
+    * Rescale Output: Unchecked
+    * Rate Control: CBR
+    * Bitrate: 3800 kbps
+    * Use Custom Buffer Size: Unchecked
+    * Keyframe Interval: 2
+    * CPU Usage Preset: Fast
+    * Profile: Main
+    * Tune: none
+    * x264 options: Left Blank
+  * **Recording Tab**
+    * Type: Standard
+    * Recording Path: Wherever you want your recordings to go
+    * Generate File Name without Space: Checked
+    * Recording Format: mkv
+    * Audio Track: Only 2 Checked
+    * Encoder: Apple VT H264 Hardware Encoder, you can use the same encoder as your stream settings if you like
+    * Rescale Output: Unchecked
+    * Customer Muxer Settings: Left Blank
+    * Bitrate: 15000 kbps, bitrate based on your encoder capability for recording
+    * Limit Bitrate: Unchecked
+    * Keyframe Interval: 2
+    * Profile: high
+    * User B-Frames: Checked
+  * **Audio Tab**
+    * Track 1
+      * Audio Bitrate: 160
+      * Name: Twitch Downstream
+    * Track 2
+      * Audio Bitrate: 320
+      * Name: Recording Downstream
+  * **Replay Buffer Tab**
+    * Enable Replay Buffer: Unchecked
 
 A couple things I want to point out. If you are streaming for the first time, I would aim to have an output resolution of 720p 60fps to start with, since you only need about 5mbps upload for a super consistent stream at a fast CPU usage preset. Once you gauge your bandwidth limit at the place you're recording then you can look to increasing the quality or usage preset. You want your viewers to have a good viewing experience though so 720p60 is more than sufficient for getting started. I upped my resolution to 1080p30 recently to gain the benefits of my recording camera, and found that I had the bandwidth available to record at with those settings and still have a stable stream. Also be sure to set your canvas to a scaled resolution that matches the layout you want to use. If you plan on having a 16:9 layout, then use a 1920x1080 canvas or similar and scale your output resolution appropriately.
 
