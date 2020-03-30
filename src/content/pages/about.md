@@ -1,7 +1,7 @@
 ---
 name: About
 intro: Full Stack Developer focused on creating great UX
-photo: "../static/uploads/zach.jpeg"
+photo: "../static/uploads/9862c79271974e09a799ed20cdd99bf0.jpeg"
 personal_description: |-
   I've been working as a software developer for the past 4 years and originally started working mainly with back end systems in C# since that what I focused on during my time at the University of Northern Colorado and was really interested in game development. It wasn't until after I had graduated and started working at Frontier Airlines that I was introduced the Vue.js and fell in love with web and front end development. Currently I work as a Full Stack Developer for Frontier Airlines and work both with Vue.js and .NET Core primarily. I am also a co-organizer of the JAMStack Denver Meetup and run the audio/video piece for the group as well as have given a couple of presentations.
 
