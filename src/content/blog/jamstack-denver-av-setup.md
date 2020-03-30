@@ -5,7 +5,8 @@ author: Zach Brooks
 hero_image: "/src/content/assets/images/avsetup.jpg"
 
 ---
-I am a co-organizer of the Jamstack Denver meetup and also the A/V guru for streaming and recording all of the talks at our meetup. We live stream our meetups on [Twitch](https://www.twitch.tv/jamstackdenver) and have recordings of each talk on [YouTube](https://www.youtube.com/channel/UCkvjCJHilRhXoalNm9pNPYg). After our February 2020 meetup, we got a lot of other groups and people interested in how we have things setup for recording and live streaming everything. So I thought it would be best to explain everything in a post here for others interested in streaming/recording their own meetups.  
+I am a co-organizer of the Jamstack Denver meetup and also the A/V guru for streaming and recording all of the talks at our meetup. We live stream our meetups on [Twitch](https://www.twitch.tv/jamstackdenver) and have recordings of each talk on [YouTube](https://www.youtube.com/channel/UCkvjCJHilRhXoalNm9pNPYg). After our February 2020 meetup, we got a lot of other groups and people interested in how we have things setup for recording and live streaming everything. So I thought it would be best to explain everything in a post here for others interested in streaming/recording their own meetups.
+
 
 I will be breaking everything down in the following sections:
 
@@ -14,6 +15,7 @@ I will be breaking everything down in the following sections:
 * **Stream/Recording Settings**
 
 **Hardware**
+
 
 I'll start with the hardware I use for my setup, the reasoning for why I use what I use, and then go into a recommended set of hardware you'll need to get started.
 
@@ -41,7 +43,9 @@ Here's a diagram of how I have everything connected as well:
 
 At first glance this is quite a bit of hardware. Some of it is also a bit overkill for creating a simple live stream and recording but you'd be surprised at some of the hardware requirements for streaming and recording.
 
+
 The 8 core Macbook Pro I have isn't necessary, but a decent pc/mac is necessary for streaming and recording. I would recommend at least a computer with 4 CPU cores if not 6 due to the video encoding being CPU bound. I'll link a recommended build if you're pc building savvy and want to put together a small form factor build, otherwise the specs listed on the build are something I would aim for.
+
 
 The Fujifilm XT-3 is a mirrorless camera, which I use for photography as well and it doubles as a great live streaming camera. Mirrorless and DSLR cameras are great for video recording and streaming, and provide a little bit of extra quality if you want to take your stream to the next level which is why I recommend them but they're not necessary to get started.
 
