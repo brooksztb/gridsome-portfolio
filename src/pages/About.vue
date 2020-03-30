@@ -4,7 +4,7 @@
 			<div class="max-w-sm lg:w-4/5 lg:max-w-full lg:flex">
 				<g-image
 					class="w-full h-full rounded mr-4"
-					:src="$page.content.photo"
+					:src="$page.content.photo.src"
 					alt="Avatar of Zach Brooks"
 				></g-image>
 				<div
