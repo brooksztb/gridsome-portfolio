@@ -30,7 +30,7 @@ I'll start with the hardware I use for my setup, the reasoning for why I use wha
 * [Wireless Mics Input Cables: 2x Hosa XLR Cables](https://www.amazon.com/gp/product/B004TVJL1U/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1)
 * [Headphones for Mixer: Sennheiser HD 559](https://www.amazon.com/Sennheiser-HD-559-Open-Headphone/dp/B01L1IIEKM/ref=sr_1_28?crid=1YBC7OT44WEHB&keywords=sennheiser+headphones&qid=1581631453&s=electronics&sprefix=sennheiser%2Celectronics%2C201&sr=1-28)
 * [Elgato Stream Deck Mini](https://www.amazon.com/gp/product/B07DYRS1WH/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1)
-* \[Anker USB C Hub Adapter, 5-in-1\](https://www.amazon.com/Anker-Adapter-Ethernet-MacBook-ChromeBook/dp/B071G83L1J/ref=sr_1_3?keywords=anker+usb+c+hub&qid=1581549203&sr=8-3)
+* [Anker USB C Hub Adapter, 5-in-1](https://www.amazon.com/Anker-Adapter-Ethernet-MacBook-ChromeBook/dp/B071G83L1J/ref=sr_1_3?keywords=anker+usb+c+hub&qid=1581549203&sr=8-3)
 * [Syntech USB C to USB Adapter](https://www.amazon.com/gp/product/B07CVX3516/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 * [Atevon 4K HDMI Cable 10 ft](https://www.amazon.com/gp/product/B01N22LFPL/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1)
 * [UGREEN Micro HDMI to HDMI Cable Adapter 4K 3 ft](https://www.amazon.com/gp/product/B06WWQ7KLV/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1)
