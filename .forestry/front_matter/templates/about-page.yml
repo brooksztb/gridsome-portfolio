@@ -89,3 +89,5 @@ fields:
     max: 
     labelField: 
   label: Personal History
+pages:
+- src/content/pages/about.md
