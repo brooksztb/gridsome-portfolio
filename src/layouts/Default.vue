@@ -7,7 +7,7 @@
 				<g-link to="/">
 					<g-image
 						class="inline-flex w-full h-10"
-						src="static/uploads/logo.svg"
+						src="/static/logo.svg"
 						alt="zachary brooks logo"
 					/>
 				</g-link>
