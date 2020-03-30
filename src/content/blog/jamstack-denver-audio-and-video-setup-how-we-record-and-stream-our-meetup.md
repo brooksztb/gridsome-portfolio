@@ -2,7 +2,7 @@
 date: 2020-03-10T13:57:23-06:00
 title: Jamstack Denver Audio and Video Setup - How we record and stream our Meetup
 author: Zach Brooks
-hero_image: "/v1581716903/avsetup_qeazq9.jpg"
+hero_image: "/avsetup.jpg"
 
 ---
 I am a co-organizer of the Jamstack Denver meetup and also the A/V guru for streaming and recording all of the talks at our meetup. We live stream our meetups on [Twitch](https://www.twitch.tv/jamstackdenver) and have recordings of each talk on [YouTube](https://www.youtube.com/channel/UCkvjCJHilRhXoalNm9pNPYg). After our February 2020 meetup, we got a lot of other groups and people interested in how we have things setup for recording and live streaming everything. So I thought it would be best to explain everything in a post here for others interested in streaming/recording their own meetups.
