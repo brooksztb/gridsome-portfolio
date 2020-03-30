@@ -31,7 +31,7 @@ sections:
   path: src/content/data/config.json
   label: Configuration
 upload_dir: static/uploads
-public_path: "/uploads"
+public_path: "/static/uploads"
 front_matter_path: "../static/uploads"
 use_front_matter_path: false
 file_template: ":filename:"
