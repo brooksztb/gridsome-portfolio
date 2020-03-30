@@ -37,7 +37,7 @@ I'll start with the hardware I use for my setup, the reasoning for why I use wha
 
 Here's a diagram of how I have everything connected as well:
 
-![audio/video setup diagram](/uploads/jamstack-setup-diagram.png)
+![audio/video setup diagram](/uploads/76ec090dd115455ba7894fcc1f19d57d.png)
 
 At first glance this is quite a bit of hardware. Some of it is also a bit overkill for creating a simple live stream and recording but you'd be surprised at some of the hardware requirements for streaming and recording.
 
