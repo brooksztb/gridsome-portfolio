@@ -2,11 +2,11 @@
 	<layout>
 		<div class="flex-wrap">
 			<div class="max-w-sm lg:w-4/5 lg:max-w-full lg:flex">
-				<img
+				<g-image
 					class="w-full h-full rounded mr-4"
 					:src="$page.content.photo"
 					alt="Avatar of Zach Brooks"
-				/>
+				></g-image>
 				<div
 					class="border rounded border-white-400 p-4 flex flex-col justify-between leading-normal"
 				>

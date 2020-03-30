@@ -19,6 +19,7 @@
 						y="0px"
 						viewBox="0 0 26 26"
 						enable-background="new 0 0 26 26"
+						fill="white"
 					>
 						<path
 							d="M23.021,12.294l-8.714-8.715l-1.414,1.414l7.007,7.008H2.687v2h17.213l-7.007,7.006l1.414,1.414l8.714-8.713  C23.411,13.317,23.411,12.685,23.021,12.294z"
@@ -188,6 +189,9 @@ query getPostData ($path: String!) {
 		ol {
 			margin-left: 1.5rem;
 			margin-bottom: 1.5rem;
+		}
+		a {
+			text-decoration: underline;
 		}
 	}
 	.blog__hero {
