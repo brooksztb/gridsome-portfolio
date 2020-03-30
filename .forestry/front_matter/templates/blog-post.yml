@@ -36,3 +36,5 @@ fields:
   config:
     maxSize: 250
   label: Hero Image
+pages:
+- src/content/blog/jamstack-denver-audio-and-video-setup-how-we-record-and-stream-our-meetup.md
