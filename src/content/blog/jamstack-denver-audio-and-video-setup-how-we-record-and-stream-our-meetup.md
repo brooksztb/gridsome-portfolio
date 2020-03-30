@@ -30,14 +30,14 @@ I'll start with the hardware I use for my setup, the reasoning for why I use wha
 * [Wireless Mics Input Cables: 2x Hosa XLR Cables](https://www.amazon.com/gp/product/B004TVJL1U/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1)
 * [Headphones for Mixer: Sennheiser HD 559](https://www.amazon.com/Sennheiser-HD-559-Open-Headphone/dp/B01L1IIEKM/ref=sr_1_28?crid=1YBC7OT44WEHB&keywords=sennheiser+headphones&qid=1581631453&s=electronics&sprefix=sennheiser%2Celectronics%2C201&sr=1-28)
 * [Elgato Stream Deck Mini](https://www.amazon.com/gp/product/B07DYRS1WH/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1)
-* [Anker USB C Hub Adapter, 5-in-1\](https://www.amazon.com/Anker-Adapter-Ethernet-MacBook-ChromeBook/dp/B071G83L1J/ref=sr_1_3?keywords=anker+usb+c+hub&qid=1581549203&sr=8-3)
+* \[Anker USB C Hub Adapter, 5-in-1\](https://www.amazon.com/Anker-Adapter-Ethernet-MacBook-ChromeBook/dp/B071G83L1J/ref=sr_1_3?keywords=anker+usb+c+hub&qid=1581549203&sr=8-3)
 * [Syntech USB C to USB Adapter](https://www.amazon.com/gp/product/B07CVX3516/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 * [Atevon 4K HDMI Cable 10 ft](https://www.amazon.com/gp/product/B01N22LFPL/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1)
 * [UGREEN Micro HDMI to HDMI Cable Adapter 4K 3 ft](https://www.amazon.com/gp/product/B06WWQ7KLV/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1)
 
 Here's a diagram of how I have everything connected as well:
 
-
+![jamstack audio/video setup diagram](/src/content/assets/images/jamstack-setup-diagram.png)
 
 At first glance this is quite a bit of hardware. Some of it is also a bit overkill for creating a simple live stream and recording but you'd be surprised at some of the hardware requirements for streaming and recording.
 
@@ -59,11 +59,10 @@ Finally, I have an Elgato Stream Deck mini to control things in OBS, which i'll 
 * [Budget Camera: Logitech C922x Webcam](https://www.amazon.com/Logitech-C922x-Pro-Stream-Webcam/dp/B01LXCDPPK/ref=sr_1_2?keywords=Logitech+C922+Pro&qid=1581629912&s=electronics&sr=1-2)
 * Tripod of choice for Camera, doesn't matter to much
 * [High End Camera Capture Card: Elgato Cam Link 4K](https://www.amazon.com/Elgato-Cam-Link-Broadcast-Camcorder/dp/B07K3FN5MR/ref=sr_1_2?keywords=elgato+cam+link&qid=1581549237&sr=8-2)
-* [Capture Card: Elgato HD60S\](https://www.amazon.com/Elgato-Game-Capture-HD60-PlayStation/dp/B01DRWCOGA/ref=sr_1_3?keywords=elgato+hd60s&qid=1581630531&sr=8-3)
+* \[Capture Card: Elgato HD60S\](https://www.amazon.com/Elgato-Game-Capture-HD60-PlayStation/dp/B01DRWCOGA/ref=sr_1_3?keywords=elgato+hd60s&qid=1581630531&sr=8-3)
 * [Non-Wireless Microphones: Audio Technica ATR2100](https://www.amazon.com/Audio-Technica-ATR2100-USB-Cardioid-Dynamic-Microphone/dp/B004QJOZS4/ref=sr_1_5?crid=24B6QEH8EBILE&keywords=audio+technica+dynamic+microphone&qid=1581630659&sprefix=audio+technica+dynamic%2Caps%2C186&sr=8-5)
   or
 * [Wireless Microphones: innopow Dual Wireless Microphone System](https://www.amazon.com/innopow-80-Channel-Microphone-Interference-Continuous/dp/B0749L15PF?tag=musiccritic-search-20)
-
 * [2 XLR Input Channel Mixer: Behringer Xenyx Q802USB](https://www.amazon.com/Behringer-Q802USB-Premium-8-Input-Interface/dp/B008O517IC/ref=sr_1_4?keywords=usb+audio+mixer&qid=1581634566&sr=8-4)
   or
 * [4 XLR Input Channel Mixer: Behringer Xenyx X1204USB](https://www.amazon.com/Behringer-X1204USB-Premium-12-Input-Interface/dp/B0039PPW60/ref=sr_1_7?keywords=usb+audio+mixer&qid=1581634566&sr=8-7)
@@ -104,58 +103,58 @@ Finally, I also like create consistent thumbnails for the videos so that viewers
 The last part I want to go over is the stream and recording settings I use for OBS, and mention some additional resources if you want to learn more about streaming technology and software. There's a lot you can do with OBS, and I am by no means an expert with it and would highly recommend that you do additional research about optimizing your streaming settings. One channel I recommend is [EposVox](https://www.youtube.com/eposvox) who has a huge master OBS class that I watched to get further knowledge of all the OBS settings. Nonetheless let's dive into my OBS settings that should get you started with a good quality stream. The follow are the settings I currently have configured in the OBS settings menu.
 
 **Video**
-  * Base Canvas Resolution: 1920x1080
-  * Output Scaled Resolution: 1920x1080
-  * Downscale Filter: Bicubic (Sharpened Scaling, 16 samples)
-  * Common FPS Value: 30
-  
+
+* Base Canvas Resolution: 1920x1080
+* Output Scaled Resolution: 1920x1080
+* Downscale Filter: Bicubic (Sharpened Scaling, 16 samples)
+* Common FPS Value: 30
+
 **Audio**
-  * Sample Rate: 48kHz
-  * Channel: Stereo
-  * Mic/Auxiliary Audio: iShowU Audio Capture (For Desktop sound capturing)
-  * Mic/Auxiliary Audio 2: USB Audio Codec (USB Mixer Audio)
+
+* Sample Rate: 48kHz
+* Channel: Stereo
+* Mic/Auxiliary Audio: iShowU Audio Capture (For Desktop sound capturing)
+* Mic/Auxiliary Audio 2: USB Audio Codec (USB Mixer Audio)
 
 **Output**
+
 * Output Mode: Advanced
-	* **Streaming Tab**
-      - Audio Track: 1
-      - Encoder: x264
-      - Enforce streaming service encoder settings: Checked
-      - Rescale Output: Unchecked
-      - Rate Control: CBR
-      - Bitrate: 3800 kbps
-      - Use Custom Buffer Size: Unchecked
-      - Keyframe Interval: 2
-      - CPU Usage Preset: Fast
-      - Profile: Main
-      - Tune: none
-      - x264 options: Left Blank
-
-  	* **Recording Tab**
-      - Type: Standard
-      - Recording Path: Wherever you want your recordings to go
-      - Generate File Name without Space: Checked
-      - Recording Format: mkv
-      - Audio Track: Only 2 Checked
-      - Encoder: Apple VT H264 Hardware Encoder, you can use the same encoder as your stream settings if you like
-      - Rescale Output: Unchecked
-      - Customer Muxer Settings: Left Blank
-      - Bitrate: 15000 kbps, bitrate based on your encoder capability for recording
-      - Limit Bitrate: Unchecked
-      - Keyframe Interval: 2
-      - Profile: high
-      - User B-Frames: Checked
-
-  	* **Audio Tab**
-      - Track 1
-        - Audio Bitrate: 160
-        - Name: Twitch Downstream
-      - Track 2 
-        - Audio Bitrate: 320 
-        - Name: Recording Downstream
-
-  	* **Replay Buffer Tab**
-      - Enable Replay Buffer: Unchecked
+  * **Streaming Tab**
+    * Audio Track: 1
+    * Encoder: x264
+    * Enforce streaming service encoder settings: Checked
+    * Rescale Output: Unchecked
+    * Rate Control: CBR
+    * Bitrate: 3800 kbps
+    * Use Custom Buffer Size: Unchecked
+    * Keyframe Interval: 2
+    * CPU Usage Preset: Fast
+    * Profile: Main
+    * Tune: none
+    * x264 options: Left Blank
+  * **Recording Tab**
+    * Type: Standard
+    * Recording Path: Wherever you want your recordings to go
+    * Generate File Name without Space: Checked
+    * Recording Format: mkv
+    * Audio Track: Only 2 Checked
+    * Encoder: Apple VT H264 Hardware Encoder, you can use the same encoder as your stream settings if you like
+    * Rescale Output: Unchecked
+    * Customer Muxer Settings: Left Blank
+    * Bitrate: 15000 kbps, bitrate based on your encoder capability for recording
+    * Limit Bitrate: Unchecked
+    * Keyframe Interval: 2
+    * Profile: high
+    * User B-Frames: Checked
+  * **Audio Tab**
+    * Track 1
+      * Audio Bitrate: 160
+      * Name: Twitch Downstream
+    * Track 2
+      * Audio Bitrate: 320
+      * Name: Recording Downstream
+  * **Replay Buffer Tab**
+    * Enable Replay Buffer: Unchecked
 
 A couple things I want to point out. If you are streaming for the first time, I would aim to have an output resolution of 720p 60fps to start with, since you only need about 5mbps upload for a super consistent stream at a fast CPU usage preset. Once you gauge your bandwidth limit at the place you're recording then you can look to increasing the quality or usage preset. You want your viewers to have a good viewing experience though so 720p60 is more than sufficient for getting started. I upped my resolution to 1080p30 recently to gain the benefits of my recording camera, and found that I had the bandwidth available to record at with those settings and still have a stable stream. Also be sure to set your canvas to a scaled resolution that matches the layout you want to use. If you plan on having a 16:9 layout, then use a 1920x1080 canvas or similar and scale your output resolution appropriately.
 
