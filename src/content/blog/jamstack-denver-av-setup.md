@@ -13,9 +13,9 @@ I will be breaking everything down in the following sections:
 * **Software**
 * **Stream/Recording Settings**
 
-**Hardware  
-  
-**I'll start with the hardware I use for my setup, the reasoning for why I use what I use, and then go into a recommended set of hardware you'll need to get started.  
+**Hardware**
+ 
+I'll start with the hardware I use for my setup, the reasoning for why I use what I use, and then go into a recommended set of hardware you'll need to get started.  
   
 **My Setup**
 
