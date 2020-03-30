@@ -2,10 +2,7 @@
 	<Layout page="blog">
 		<article class="blog">
 			<figure class="blog__hero">
-				<g-image
-					:src="$page.post.hero_image.src"
-					:alt="$page.post.title"
-				></g-image>
+				<g-image :src="$page.post.hero_image" :alt="$page.post.title"></g-image>
 			</figure>
 			<div class="blog__info">
 				<h1 class="font-display">{{ $page.post.title }}</h1>
