@@ -46,7 +46,7 @@ export default function(Vue, { appOptions, router, head, isClient }) {
 		{
 			rel: 'stylesheet',
 			href:
-				'https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&display=swap',
+				'https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Open+Sans&display=swap',
 		},
 	);
 

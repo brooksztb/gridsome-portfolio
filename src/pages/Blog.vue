@@ -14,7 +14,7 @@ query getAllBlogData {
                 path
                 author
                 date  (format: "MMMM DD YYYY")
-                hero_image
+                hero_image (width: 1000, quality: 75)
                 content
             }
         }

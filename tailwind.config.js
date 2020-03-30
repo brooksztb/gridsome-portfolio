@@ -11,8 +11,8 @@ module.exports = {
 			'1': '1 0 auto',
 		},
 		fontFamily: {
-			display: ['Oswald', 'sans-serif'],
-			body: ['Oswald', 'sans-serif'],
+			display: ['Lato', 'sans-serif'],
+			body: ['Open Sans', 'sans-serif'],
 		},
 		extend: {
 			colors: {

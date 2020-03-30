@@ -1,5 +1,5 @@
 <template>
-	<div id="portfolio" class="font-body">
+	<div id="portfolio" class="font-display">
 		<header
 			class="fixed w-full z-10 sm:flex md:hidden items-center justify-between flex-wrap nav-bar p-3"
 		>

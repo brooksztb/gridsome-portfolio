@@ -2,16 +2,13 @@
 	<Layout page="blog">
 		<article class="blog">
 			<figure class="blog__hero">
-				<g-image
-					:src="imageUrl($page.post.hero_image)"
-					:alt="$page.post.title"
-				></g-image>
+				<g-image :src="$page.post.hero_image" :alt="$page.post.title"></g-image>
 			</figure>
 			<div class="blog__info">
-				<h1>{{ $page.post.title }}</h1>
+				<h1 class="font-display">{{ $page.post.title }}</h1>
 				<h3>{{ $page.post.date }}</h3>
 			</div>
-			<div class="blog__body" v-html="$page.post.content"></div>
+			<div class="font-body blog__body" v-html="$page.post.content"></div>
 			<div class="blog__footer">
 				<h2>Written By: {{ $page.post.author }}</h2>
 				<g-link :to="nextBlogPath">
@@ -53,9 +50,6 @@ export default {
 		},
 	},
 	methods: {
-		imageUrl(base) {
-			return `${this.$page.metadata.cloudinaryUrl}/w_1000,q_80/${base}`;
-		},
 		isNull(item) {
 			return item == null || item == undefined;
 		},
@@ -65,14 +59,11 @@ export default {
 
 <page-query>
 query getPostData ($path: String!) {
-  	metadata {
-        cloudinaryUrl
-    }
     post: blog(path: $path) {
         title
         date (format: "MMMM DD YYYY")
         author
-        hero_image
+        hero_image (quality: 80)
         content
     }
     all: allBlog {
