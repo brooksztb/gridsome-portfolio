@@ -120,20 +120,24 @@ The last part I want to go over is the stream and recording settings I use for O
     * Encoder: Apple VT H264 Hardware Encoder, you can use the same encoder as your stream settings if you like
     * Rescale Output: Unchecked
     * Customer Muxer Settings: Left Blank
-    * Bitrate: 15000 kbps, bitrate based on your encoder capability for recording
-    * Limit Bitrate: Unchecked
-    * Keyframe Interval: 2
-    * Profile: high
-    * User B-Frames: Checked
-  * **Audio Tab**
-    * Track 1
-      * Audio Bitrate: 160
-      * Name: Twitch Downstream
-    * Track 2
-      * Audio Bitrate: 320
-      * Name: Recording Downstream
-  * **Replay Buffer Tab**
-    * Enable Replay Buffer: Unchecked
+    *   
+      \- Bitrate: 15000 kbps, bitrate based on your encoder capability for recording  
+      \- Limit Bitrate: Unchecked  
+      \- Keyframe Interval: 2  
+      \- Profile: high  
+      \- User B-Frames: Checked
+  * 
+
+\- **Audio Tab**  
+\- Track 1  
+\- Audio Bitrate: 160  
+\- Name: Twitch Downstream  
+\- Track 2  
+\- Audio Bitrate: 320  
+\- Name: Recording Downstream
+
+\- **Replay Buffer Tab**  
+\- Enable Replay Buffer: Unchecked
 
 A couple things I want to point out. If you are streaming for the first time, I would aim to have an output resolution of 720p 60fps to start with, since you only need about 5mbps upload for a super consistent stream at a fast CPU usage preset. Once you gauge your bandwidth limit at the place you're recording then you can look to increasing the quality or usage preset. You want your viewers to have a good viewing experience though so 720p60 is more than sufficient for getting started. I upped my resolution to 1080p30 recently to gain the benefits of my recording camera, and found that I had the bandwidth available to record at with those settings and still have a stable stream. Also be sure to set your canvas to a scaled resolution that matches the layout you want to use. If you plan on having a 16:9 layout, then use a 1920x1080 canvas or similar and scale your output resolution appropriately.
 
